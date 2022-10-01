@@ -1,0 +1,1567 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="PerfectWORK" name="author"/>
+<link href="https://perfectwork-app.github.io/gethelp/01_application_guide/01_platform/03_connect/02_email_communication/" rel="canonical"/>
+<link href="../../../../assets/pw_logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.0, mkdocs-material-8.5.0" name="generator"/>
+<title>PerfectWORK</title>
+<link href="../../../../assets/stylesheets/main.2e8b5541.min.css" rel="stylesheet"/>
+<link href="../../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Nunito";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../../stylesheets/tailwind.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+</head>
+<body data-md-color-accent="red" data-md-color-primary="white" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#send-and-receive-emails-in-perfectwork-with-an-email-server">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="PerfectWORK Documentation" class="md-header__button md-logo" data-md-component="logo" href="https://perfectwork.app" title="PerfectWORK Documentation">
+<img alt="logo" src="../../../../assets/pw_logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            PerfectWORK Documentation
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Email Communication
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="white" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="" data-md-color-primary="blue-grey" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/perfectwork-app/gethelp" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    perfectwork-app/gethelp
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../..">
+      Getting Started
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../../../">
+        Application Guide
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../../02_solution_guide/">
+        Industrial Solutions
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../../04_developer_guide/">
+        Developer Guide
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="PerfectWORK Documentation" class="md-nav__button md-logo" data-md-component="logo" href="https://perfectwork.app" title="PerfectWORK Documentation">
+<img alt="logo" src="../../../../assets/pw_logo.png"/>
+</a>
+    PerfectWORK Documentation
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/perfectwork-app/gethelp" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    perfectwork-app/gethelp
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../..">
+        Getting Started
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../">Application Guide</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Application Guide" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Application Guide
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../">Platform</a>
+<label for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Platform" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+          Platform
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_2" id="__nav_2_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2_2">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Getting Started" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_2_2">
+<span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01_getting_started/01_overview/">
+        Overview
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../01_getting_started/02_navigation/">
+        Navigation - UI
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_3" id="__nav_2_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2_3">
+          Companies and Users
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Companies and Users" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Companies and Users
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02_companies_users/01_companies/">
+        Companies
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../02_companies_users/10_users/">
+        Users
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_4" id="__nav_2_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2_4">
+          Collaboration
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Collaboration" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Collaboration
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../01_overview/">
+        CONNECT Application
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Email Communication
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Email Communication
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#send-and-receive-emails-in-perfectwork-with-an-email-server">
+    Send and Receive Emails in PerfectWORK with an Email Server
+  </a>
+<nav aria-label="Send and Receive Emails in PerfectWORK with an Email Server" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#if-you-are-a-user-of-perfectwork-online">
+    If you are a user of PerfectWORK Online
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scope-of-this-documentation">
+    Scope of this documentation
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-manage-outbound-messages">
+    How to manage outbound messages
+  </a>
+<nav aria-label="How to manage outbound messages" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#can-i-use-an-office-365-server">
+    Can I use an Office 365 server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-use-a-g-suite-server">
+    How to use a G Suite server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#restriction">
+    Restriction
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use-a-default-from-email-address">
+    Use a default “From” email address
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-manage-inbound-messages">
+    How to manage inbound messages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-up-different-dedicated-servers-for-transactional-and-mass-mails">
+    Set up different dedicated servers for transactional and mass mails
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sending-emails-with-perfectwork">
+    Sending emails with PerfectWORK
+  </a>
+<nav aria-label="Sending emails with PerfectWORK" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#using-your-email-domain-in-perfectwork">
+    Using your email domain in PerfectWORK
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#be-spf-compliant">
+    Be SPF compliant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-dkim">
+    Enable DKIM
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#check-your-dmarc-policy">
+    Check your DMARC policy
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use-a-default-email-address">
+    Use a default email address
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#email-templates">
+    Email Templates
+  </a>
+<nav aria-label="Email Templates" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#defining-a-default-reply-to-on-your-mail-template">
+    Defining a default reply to on your mail template
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transactional-emails-and-corresponding-url-for-each-company">
+    Transactional emails and corresponding URL for each company
+  </a>
+<nav aria-label="Transactional emails and corresponding URL for each company" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#updating-translations-within-email-templates">
+    Updating translations within email templates
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#faq">
+    FAQ
+  </a>
+<nav aria-label="FAQ" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#outgoing-emails">
+    Outgoing emails
+  </a>
+<nav aria-label="Outgoing emails" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-do-you-have-to-check-if-your-email-is-not-sent">
+    What do you have to check if your email is not sent?
+  </a>
+<nav aria-label="What do you have to check if your email is not sent?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#common-error-messages">
+    Common error messages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#smtp-error">
+    SMTP Error
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-error">
+    No Error
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#why-is-my-email-sent-late">
+    Why is my email sent late?
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incoming-emails">
+    Incoming emails
+  </a>
+<nav aria-label="Incoming emails" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emails-are-not-received">
+    Emails are not received
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#get-help-from-support">
+    Get help from support
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_5" id="__nav_2_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2_5">
+          Application Integration
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Application Integration" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_2_5">
+<span class="md-nav__icon md-icon"></span>
+          Application Integration
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../10_apps_integration/03_modules/">
+        Application &amp; Modules
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../10_apps_integration/05_authentication/">
+        Authentication
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../10_apps_integration/06_google/">
+        Google
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../10_apps_integration/07_unsplash/">
+        Unsplash
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../02_finance/">Finance &amp; Accounting</a>
+<label for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Finance &amp; Accounting" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Finance &amp; Accounting
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" id="__nav_2_3_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../02_finance/01_getting_started/">Getting Started</a>
+<label for="__nav_2_3_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Getting Started" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/01_getting_started/01_accounting_concept/">
+        Main Accounting Concepts
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2_3" id="__nav_2_3_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3_2_3">
+          initial Configuration
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="initial Configuration" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_2_3_2_3">
+<span class="md-nav__icon md-icon"></span>
+          initial Configuration
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/01_getting_started/02_configuration/01_initial_setup/">
+        Initial Setup of PerfectWORK Accounting
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/01_getting_started/02_configuration/02_chart_of_accounts/">
+        Chart of Accounts
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2_4" id="__nav_2_3_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3_2_4">
+          Process Overview
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Process Overview" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_2_3_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Process Overview
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/01_getting_started/03_process/01_invoice_to_payment/">
+        From Customer Invoice to Payments Collection
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/01_getting_started/03_process/02_vendor_bill_to_payment/">
+        From Vendor Bill to Payment
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" id="__nav_2_3_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../02_finance/02_accounts_receivable/">Accounts Receivable</a>
+<label for="__nav_2_3_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Accounts Receivable" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Accounts Receivable
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_2" id="__nav_2_3_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3_3_2">
+          Customer Invoices
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Customer Invoices" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_2_3_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Customer Invoices
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/02_accounts_receivable/01_customer_invoices/01_invoice_to_payment/">
+        Invoicing Process
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/02_accounts_receivable/01_customer_invoices/02_offer_cash_discount/">
+        Offer Cash Discounts
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/02_accounts_receivable/01_customer_invoices/03_cash_rounding/">
+        Cash Rounding
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_3" id="__nav_2_3_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3_3_3">
+          Customer Payments
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Customer Payments" class="md-nav" data-md-level="4">
+<label class="md-nav__title" for="__nav_2_3_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Customer Payments
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/02_accounts_receivable/02_customer_payment/01_different_way_payment/">
+        Different ways to record a payment
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4" id="__nav_2_3_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../02_finance/10_inventory/">Inventory Management</a>
+<label for="__nav_2_3_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Inventory Management" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_3_4">
+<span class="md-nav__icon md-icon"></span>
+          Inventory Management
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/10_inventory/01_inventory_valuation/">
+        Inventory Valuation Configuration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/10_inventory/02_automated_inventory_valuation/">
+        Automated Inventory Valuation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../02_finance/10_inventory/03_manual_inventory_valuation/">
+        Manual Inventory Valuation
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" id="__nav_2_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../03_sales_distribution/">Sales &amp; Distribution</a>
+<label for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Sales &amp; Distribution" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Sales &amp; Distribution
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_2" id="__nav_2_4_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../03_sales_distribution/05_managing_products/">Managing Pricing</a>
+</div>
+<nav aria-label="Managing Pricing" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_2">
+<span class="md-nav__icon md-icon"></span>
+          Managing Pricing
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_3" id="__nav_2_4_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../03_sales_distribution/06_managing_pricing/">Managing Pricing</a>
+</div>
+<nav aria-label="Managing Pricing" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_3">
+<span class="md-nav__icon md-icon"></span>
+          Managing Pricing
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" id="__nav_2_5" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../04_marketing/">CRM &amp; Marketing</a>
+</div>
+<nav aria-label="CRM &amp; Marketing" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+          CRM &amp; Marketing
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" id="__nav_2_6" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../05_website/">Website &amp; eCommerce</a>
+<label for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Website &amp; eCommerce" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+          Website &amp; eCommerce
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6_2" id="__nav_2_6_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../05_website/01_getting_started/">Getting Started</a>
+</div>
+<nav aria-label="Getting Started" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_6_2">
+<span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" id="__nav_2_7" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../06_manufacturing/">Manufacturing &amp; Warehouse</a>
+</div>
+<nav aria-label="Manufacturing &amp; Warehouse" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_7">
+<span class="md-nav__icon md-icon"></span>
+          Manufacturing &amp; Warehouse
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" id="__nav_2_8" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../07_supply_chain/">Supply Chain &amp; Logistics</a>
+</div>
+<nav aria-label="Supply Chain &amp; Logistics" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_8">
+<span class="md-nav__icon md-icon"></span>
+          Supply Chain &amp; Logistics
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" id="__nav_2_9" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../08_human_resources/">Human Resources</a>
+</div>
+<nav aria-label="Human Resources" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_9">
+<span class="md-nav__icon md-icon"></span>
+          Human Resources
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" id="__nav_2_10" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../09_customer_services/">Customer Services</a>
+</div>
+<nav aria-label="Customer Services" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_10">
+<span class="md-nav__icon md-icon"></span>
+          Customer Services
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../02_solution_guide/">Industrial Solutions</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Industrial Solutions" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Industrial Solutions
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" id="__nav_3_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../02_solution_guide/01_clinic_management/">Clinic Management</a>
+</div>
+<nav aria-label="Clinic Management" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Clinic Management
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../02_solution_guide/02_mentoring/">Mentoring &amp; Couching</a>
+</div>
+<nav aria-label="Mentoring &amp; Couching" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Mentoring &amp; Couching
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../04_developer_guide/">Developer Guide</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="Developer Guide" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Developer Guide
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" id="__nav_4_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../04_developer_guide/01_pw_cli/">PW CLI Tool</a>
+<label for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-label="PW CLI Tool" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+          PW CLI Tool
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../../04_developer_guide/01_pw_cli/01_api/">
+        API
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../../04_developer_guide/01_pw_cli/02_tutorial/">
+        Tutorial
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" id="__nav_4_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../../../04_developer_guide/09_external_api/">External API</a>
+</div>
+<nav aria-label="External API" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_3">
+<span class="md-nav__icon md-icon"></span>
+          External API
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#send-and-receive-emails-in-perfectwork-with-an-email-server">
+    Send and Receive Emails in PerfectWORK with an Email Server
+  </a>
+<nav aria-label="Send and Receive Emails in PerfectWORK with an Email Server" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#if-you-are-a-user-of-perfectwork-online">
+    If you are a user of PerfectWORK Online
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#scope-of-this-documentation">
+    Scope of this documentation
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-manage-outbound-messages">
+    How to manage outbound messages
+  </a>
+<nav aria-label="How to manage outbound messages" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#can-i-use-an-office-365-server">
+    Can I use an Office 365 server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-use-a-g-suite-server">
+    How to use a G Suite server
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#restriction">
+    Restriction
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use-a-default-from-email-address">
+    Use a default “From” email address
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-manage-inbound-messages">
+    How to manage inbound messages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-up-different-dedicated-servers-for-transactional-and-mass-mails">
+    Set up different dedicated servers for transactional and mass mails
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sending-emails-with-perfectwork">
+    Sending emails with PerfectWORK
+  </a>
+<nav aria-label="Sending emails with PerfectWORK" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#using-your-email-domain-in-perfectwork">
+    Using your email domain in PerfectWORK
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#be-spf-compliant">
+    Be SPF compliant
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-dkim">
+    Enable DKIM
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#check-your-dmarc-policy">
+    Check your DMARC policy
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#use-a-default-email-address">
+    Use a default email address
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#email-templates">
+    Email Templates
+  </a>
+<nav aria-label="Email Templates" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#defining-a-default-reply-to-on-your-mail-template">
+    Defining a default reply to on your mail template
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#transactional-emails-and-corresponding-url-for-each-company">
+    Transactional emails and corresponding URL for each company
+  </a>
+<nav aria-label="Transactional emails and corresponding URL for each company" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#updating-translations-within-email-templates">
+    Updating translations within email templates
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#faq">
+    FAQ
+  </a>
+<nav aria-label="FAQ" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#outgoing-emails">
+    Outgoing emails
+  </a>
+<nav aria-label="Outgoing emails" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-do-you-have-to-check-if-your-email-is-not-sent">
+    What do you have to check if your email is not sent?
+  </a>
+<nav aria-label="What do you have to check if your email is not sent?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#common-error-messages">
+    Common error messages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#smtp-error">
+    SMTP Error
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#no-error">
+    No Error
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#why-is-my-email-sent-late">
+    Why is my email sent late?
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#incoming-emails">
+    Incoming emails
+  </a>
+<nav aria-label="Incoming emails" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emails-are-not-received">
+    Emails are not received
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#get-help-from-support">
+    Get help from support
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/perfectwork-app/gethelp/blob/3.0/docs/01_application_guide/01_platform/03_connect/02_email_communication.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1>Email Communication</h1>
+<h2 id="send-and-receive-emails-in-perfectwork-with-an-email-server">Send and Receive Emails in PerfectWORK with an Email Server<a class="headerlink" href="#send-and-receive-emails-in-perfectwork-with-an-email-server" title="Permanent link">¶</a></h2>
+<h3 id="if-you-are-a-user-of-perfectwork-online">If you are a user of PerfectWORK Online<a class="headerlink" href="#if-you-are-a-user-of-perfectwork-online" title="Permanent link">¶</a></h3>
+<p>You have nothing to do! PerfectWORK sets up its own mail servers for your database. Outgoing and incoming emails work out-of-the-box!
+<br/><br/>
+Unless you plan to send large batches of mass mailing that could require the use of an external mail server, simply enjoy your new PerfectWORK database.</p>
+<h3 id="scope-of-this-documentation">Scope of this documentation<a class="headerlink" href="#scope-of-this-documentation" title="Permanent link">¶</a></h3>
+<p>This document is mainly dedicated to PerfectWORK on-premise users who don’t benefit from an out-of-the-box solution to send and receive emails in PerfectWORK, unlike PerfectWORK Online.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If no one in your company is used to manage email servers, we strongly recommend that you opt for those PerfectWORK hosting solutions. Their email system works instantly and is monitored by professionals. Nevertheless you can still use your own email servers if you want to manage your email server’s reputation yourself.</p>
+</div>
+<p>You will find here some useful information on how to integrate your own email solution with PerfectWORK.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Office 365 email servers don’t easily allow to send external emails from hosts like PerfectWORK. Refer to Microsoft’s documentation to make it work.</p>
+</div>
+<h3 id="how-to-manage-outbound-messages">How to manage outbound messages<a class="headerlink" href="#how-to-manage-outbound-messages" title="Permanent link">¶</a></h3>
+<p>As a system admin, go to <strong>Settings ‣ General Settings</strong> and check <em>External Email Servers</em>. Then, click <em>Outgoing Mail Servers</em> to create one and reference the SMTP data of your email server. Once all the information has been filled out, click on <em>Test Connection</em>.
+<br/><br/>
+Here is a typical configuration for a G Suite server.</p>
+<p>Then set your email domain name in the General Settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you get a [AUTHENTICATIONFAILED] Invalid credentials (Failure) warning when you Test Connection on a Gmail address, activate the Less secure app access option. A direct link can be accessed here.
+<br/><br/>
+In addition to that, enable the IMAP setting on your Gmail account.</p>
+</div>
+<h4 id="can-i-use-an-office-365-server">Can I use an Office 365 server<a class="headerlink" href="#can-i-use-an-office-365-server" title="Permanent link">¶</a></h4>
+<p>You can use an Office 365 server if you run PerfectWORK on-premise. Office 365 SMTP relays are not compatible with PerfectWORK Online unless you configure PerfectWORK to force the outgoing “From” address .</p>
+<p>Please refer to Microsoft’s documentation to configure a SMTP relay for your PerfectWORK’s IP address.</p>
+<h4 id="how-to-use-a-g-suite-server">How to use a G Suite server<a class="headerlink" href="#how-to-use-a-g-suite-server" title="Permanent link">¶</a></h4>
+<p>You can use an G Suite server for any PerfectWORK hosting type. To do so you need to setup the SMTP relay service. The configuration steps are explained in Google documentation.</p>
+<h4 id="restriction">Restriction<a class="headerlink" href="#restriction" title="Permanent link">¶</a></h4>
+<p>Please note that port 25 is blocked for security reasons on our PerfectWORK Online platform. Try using 465 or 587.</p>
+<h4 id="use-a-default-from-email-address">Use a default “From” email address<a class="headerlink" href="#use-a-default-from-email-address" title="Permanent link">¶</a></h4>
+<p>Sometimes, an email’s “From” (outgoing) address can belong to a different domain, and that can be a problem.
+<br/><br/>
+For example, if a customer with address <a href="mailto:mary@customer.example.com">mary@customer.example.com</a> responds to a message, PerfectWORK will try to redistribute that same email to other subscribers in the thread. But if the domain customer.example.com forbids that kind of usage for security, the PerfectWORK’s redistributed email would get rejected by some recipients’ mail servers.
+<br/><br/>
+To avoid those kind of problems, you should make sure all emails use a “From” address from your authorized domain.
+<br/><br/>
+If your MTA supports SRS (Sender Rewriting Scheme), you can enable it to handle these situations. However, that is more complex and requires more technical knowledge that is not meant to be covered by this documentation.
+<br/><br/>
+Instead, you can also configure PerfectWORK to do something similar by itself:</p>
+<ul>
+<li>Set your domain name in the General Settings.</li>
+<li>Click on Outgoing Mail Servers</li>
+<li>Create a new one.</li>
+<li>
+<p>Fill its From Filter.</p>
+<ol>
+<li>
+<p>Use a domain (such as mycompany.example.com) to keep the original “From” address for mails that come from that domain.</p>
+</li>
+<li>
+<p>Use an address (such as <a href="mailto:outgoing@mycompany.example.com">outgoing@mycompany.example.com</a>) to allow only that outgoing address.</p>
+</li>
+<li>
+<p>Keep it empty to use this server for any email address.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>With this configuration in place, if PerfectWORK sends an email that doesn’t match any of the from filters, it will alter the email’s “From” before sending it to the MTA.
+  <br/><br/>
+  It will use the default outgoing email address, composed like this: {mail.default.from}@{mail.catchall.domain}.</p>
+<ul>
+<li>
+<p>In developer mode, go to Settings ‣ Technical ‣ Parameters ‣ System Parameters.</p>
+</li>
+<li>
+<p>Add these system parameters:</p>
+<ol>
+<li>
+<p>mail.default.from: local part of default outgoing email address.</p>
+</li>
+<li>
+<p>mail.catchall.domain: domain part of default outgoing email address.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="how-to-manage-inbound-messages">How to manage inbound messages<a class="headerlink" href="#how-to-manage-inbound-messages" title="Permanent link">¶</a></h3>
+<p>PerfectWORK relies on generic email aliases to fetch incoming messages.</p>
+<ul>
+<li>
+<p><strong>Reply messages</strong> of messages sent from PerfectWORK are routed to their original discussion thread (and to the inbox of all its followers) by the catchall alias (catchall@).</p>
+</li>
+<li>
+<p><strong>Bounced messages</strong> are routed to bounce@ in order to track them in PerfectWORK. This is especially used in PerfectWORK Email Marketing to opt-out invalid recipients.</p>
+</li>
+<li>
+<p><strong>Original messages</strong>: Several business objects have their own alias to create new records in PerfectWORK from incoming emails:</p>
+<ul>
+<li>
+<p>Sales Channel (to create Leads or Opportunities in PerfectWORK CRM),</p>
+</li>
+<li>
+<p>Support Channel (to create Tickets in PerfectWORK Helpdesk),</p>
+</li>
+<li>
+<p>Projects (to create new Tasks in PerfectWORK Project),</p>
+</li>
+<li>
+<p>Job Positions (to create Applicants in PerfectWORK Recruitment),</p>
+</li>
+<li>
+<p>etc.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Depending on your mail server, there might be several methods to fetch emails. The easiest and most recommended method is to manage one email address per PerfectWORK alias in your mail server.
+<br/><br/></p>
+<ul>
+<li>
+<p>Create the corresponding email addresses in your mail server (catchall@, bounce@, sales@, etc.).</p>
+</li>
+<li>
+<p>Set your domain name in the General Settings.</p>
+</li>
+<li>
+<p>If you use PerfectWORK on-premise, create an Incoming Mail Server in PerfectWORK for each alias. You can do it from the General Settings as well. Fill out the form according to your email provider’s settings. Leave the Actions to Perform on Incoming Mails blank. Once all the information has been filled out, click on <em>TEST &amp; CONFIRM</em>.</p>
+</li>
+<li>
+<p>If you use PerfectWORK Online or PerfectWORK.sh, We do recommend to redirect incoming messages to PerfectWORK’s domain name rather than exclusively use your own email server. That way you will receive incoming messages without delay. Indeed, PerfectWORK Online is fetching incoming messages of external servers once per hour only. You should set redirections for all the email addresses to PerfectWORK’s domain name in your email server (e.g. <a href="mailto:catchall@mydomain.ext">catchall@mydomain.ext</a> to <a href="mailto:catchall@mycompany.PerfectWORK.com">catchall@mycompany.PerfectWORK.com</a>).</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>All the aliases are customizable in PerfectWORK</strong>.
+<br/><br/>
+Object aliases can be edited from their respective configuration view. To edit catchall and bounce aliases, you first need to activate the developer mode.
+<br/><br/>
+Then go to <strong>Settings ‣ Technical ‣ Parameters ‣ System Parameters</strong> to customize the aliases (mail.catchall.alias &amp; * mail.bounce.alias*).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default inbound messages are fetched every 5 minutes in PerfectWORK on-premise. You can change this value in developer mode. Go to <strong>Settings ‣ Technical ‣ Automation ‣ Scheduled Actions</strong> and look for <em>Mail: Fetchmail Service</em>.</p>
+</div>
+<h3 id="set-up-different-dedicated-servers-for-transactional-and-mass-mails">Set up different dedicated servers for transactional and mass mails<a class="headerlink" href="#set-up-different-dedicated-servers-for-transactional-and-mass-mails" title="Permanent link">¶</a></h3>
+<p>PerfectWORK is subject to a <strong>daily email limit</strong> to prevent abuse. However, if needed, you can use a separate Mail Transfer Agent (MTA) servers for transactional e-mails and mass mailings. Example: use PerfectWORK’s own mail server for transactional e-mails, and Sendgrid, Amazon SES, or Mailgun for mass mailings. Another alternative is to use Postmark for transactional e-mails, and Amazon SES or Sendgrid for mass mailings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A default outgoing email server is already configured. You should not create an alternative one unless you want to use a specific external outgoing email server for technical reasons.</p>
+</div>
+<p>To do this, you should first activate the developer mode and then go to <strong>Settings ‣ Technical ‣ Outgoing</strong> e-mail servers. There you have to create two e-mail MTA server settings. One for transactional e-mails and one for mass mail servers. Be sure to mark the priority of transactional e-mail servers as low as the mass email servers.</p>
+<p>Now, go to <strong>Email Marketing ‣ Settings</strong> and enable Dedicated Server. With these settings, PerfectWORK uses the server with the lower priority for transactional emails, and the server here selected for mass mails. Note that in this case, you have to set your domain’s Sender Policy Framework (SPF) records to include both transactional and mass mail servers. If your server resides with xxxx.PerfectWORK.com, the available options are Sendinblue and Mailchimp, as your e-mails would be originated from the xxxx.PerfectWORK.app domain.</p>
+<h2 id="sending-emails-with-perfectwork">Sending emails with PerfectWORK<a class="headerlink" href="#sending-emails-with-perfectwork" title="Permanent link">¶</a></h2>
+<h3 id="using-your-email-domain-in-perfectwork">Using your email domain in PerfectWORK<a class="headerlink" href="#using-your-email-domain-in-perfectwork" title="Permanent link">¶</a></h3>
+<p>Documents in PerfectWORK (a CRM opportunity, a sales order, an invoice …) have a discussion thread, called chatter.
+<br/><br/>
+When you post a message in the chatter, this message is sent by email to the followers of the document. If a follower replies to the message, the reply updates the chatter, and PerfectWORK relays the reply to the followers.
+<br/><br/>
+Emails from your users to partners (customers, vendors) are sent from the email address of your users. Similarly, emails from partners to users are sent from the email address of the partners. This allows you to recognize at a glance who sent an email relayed by PerfectWORK.
+<br/><br/>
+If your database is hosted on our cloud (PerfectWORK Online), it is not necessary to add an outgoing email server to send emails from your custom domain. You can enjoy this feature by using the default PerfectWORK email server.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The PerfectWORK server is subject to a daily email limit to prevent abuse. The default limit is 200 emails sent per day for databases with an subscription. This limit can be increased under certain conditions. See our FAQ or contact support for more information.</p>
+</div>
+<p>However, it is recommended that you configure your domain name to ensure that emails from your users reach your partners, rather than being considered spam.
+<br/><br/>
+For the same reason, we recommend that you always give your users an email address from a domain you manage, rather than a generic email address (gmail.com, outlook.com, etc.).</p>
+<h3 id="be-spf-compliant">Be SPF compliant<a class="headerlink" href="#be-spf-compliant" title="Permanent link">¶</a></h3>
+<p>The Sender Policy Framework (SPF) protocol allows the owner of a domain name to specify which servers are allowed to send email from that domain. When a server receives an incoming email, it checks whether the IP address of the sending server is on the list of allowed IPs according to the SPF record of the sender.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The SPF verification is performed on the domain mentioned in the Return-Path field of the email. In the case of an email sent by PerfectWORK, this domain corresponds to the value of the mail.catchall.domain key in the database system parameters.
+<br/><br/>
+See the documentation on incoming emails.</p>
+</div>
+<p>The SPF policy of a domain is set using a TXT record. How to create or modify a TXT record depends on the provider hosting the DNS zone of your domain name. In order for the verification to work properly, each domain can only have one SPF record.</p>
+<p>If your domain name does not yet have an SPF record, the content of the record to create is as follows:
+<div class="highlight"><pre><span></span><code>v=spf1 include:_spf.PerfectWORK.com ~all
+</code></pre></div>
+If your domain name already has an SPF record, you need to update this record (and do not create a new one).</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>If your TXT record is <em>v=spf1 include:_spf.google.com</em> ~all, you need to edit it to add <em>include: _spf.perfectwork.app</em>: <em>v=spf1 include:_spf.perfectwork.app include:_spf.google.com ~~all</em></p>
+</div>
+<p>You can check if your SPF record is valid with a free tool like <a href="https://mxtoolbox.com/spf.aspx">MXToolbox SPF</a>.</p>
+<h3 id="enable-dkim">Enable DKIM<a class="headerlink" href="#enable-dkim" title="Permanent link">¶</a></h3>
+<p>The DomainKeys Identified Mail (DKIM) allows you to authenticate your emails with a digital signature.</p>
+<p>When sending an email, the PerfectWORK server includes a unique DKIM signature in the headers. The recipient’s server decrypts this signature using the DKIM record in your domain name. If the signature and the key contained in the record match, this guarantees that your message is authentic and has not been altered during transport.</p>
+<p>To enable DKIM, you must add a CNAME record to the DNS zone of your domain name:
+<div class="highlight"><pre><span></span><code>PerfectWORK._domainkey IN CNAME PerfectWORK._domainkey.PerfectWORK.app.
+</code></pre></div></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If your domain name is mycompany.com, you need to create a subdomain PerfectWORK._domainkey.mycompany.com whose canonical name is PerfectWORK._domainkey.PerfectWORK.app.</p>
+</div>
+<p>How to create or modify a CNAME record depends on the provider hosting the DNS zone of your domain name. The most common providers are list below.</p>
+<p>You can check if your DKIM record is valid with a free tool like DKIM Core. If a selector is asked, enter PerfectWORK.</p>
+<h3 id="check-your-dmarc-policy">Check your DMARC policy<a class="headerlink" href="#check-your-dmarc-policy" title="Permanent link">¶</a></h3>
+<p>The Domain-based Message Authentication, Reporting &amp; Conformance (DMARC) is a protocol that unifies SPF and DKIM. The instructions contained in the DMARC record of a domain name tell the destination server what to do with an incoming email that fails the SPF and/or DKIM check.</p>
+<p>There are three DMARC policies: - <em>p=none</em> - <em>p=quarantine</em> - <em>p=reject</em></p>
+<p><em>p=quarantine</em> and <em>p=reject</em> instruct the server that receives an email to quarantine that email or ignore it if the SPF and/or DKIM check fails.</p>
+<p>If your domain name uses DMARC and has defined one of these policies, it is therefore imperative to be SPF compliant or to enable DKIM.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Yahoo or AOL are examples of email providers with a DMARC policy set to p=reject. We strongly advise against using an <a class="magiclink magiclink-github magiclink-mention" href="https://github.com/yahoo" title="GitHub User: yahoo">@yahoo</a>.com or <a class="magiclink magiclink-github magiclink-mention" href="https://github.com/aol" title="GitHub User: aol">@aol</a>.com address for your users. These emails will never reach their recipient.</p>
+</div>
+<p><em>p=none</em> is used for the domain owner to receive reports about entities using their domain. It should not impact the deliverability if the DMARC check fails.</p>
+<p>You can check the DMARC record of a domain name with a tool like <a href="https://mxtoolbox.com/DMARC.aspx">MXToolbox DMARC</a>.</p>
+<p>If one of your partners, customer or vendor, uses DMARC and has defined one of these policies, the PerfectWORK server cannot relay emails from this partner to your users.</p>
+<p>You need to handle user notifications in PerfectWORK, or replace the email address of the partner with a default email address.</p>
+<h3 id="use-a-default-email-address">Use a default email address<a class="headerlink" href="#use-a-default-email-address" title="Permanent link">¶</a></h3>
+<p>To force the email address from which emails are sent, you need to create the following key in the System Parameters of the database:
+<br/><br/>
+If mail.default.from is set, and contains a full email address, all outgoing emails are sent from the given address. This is a requirement to use Outlook with PerfectWORK.
+<br/><br/>
+You access the <strong>System Parameters</strong> in developer mode in the <strong>Settings ‣ Technical ‣ Parameters ‣ System Parameters</strong> menu.</p>
+<h2 id="email-templates">Email Templates<a class="headerlink" href="#email-templates" title="Permanent link">¶</a></h2>
+<p>We all know writing good emails is vital to get a high response rate, but you do not want to rewrite the same structure every time, do you? That is where email templates come in. Without the need to rewrite the entire email structure every time, you save time to focus on the content. Multiple templates also let you deliver the right message to the right audience, improving their overall experience with the company.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The email templates use QWeb. The composer allows you to edit emails in their final rendering, making customizations more robust as you don’t have to edit code.</p>
+</div>
+<h3 id="defining-a-default-reply-to-on-your-mail-template">Defining a default reply to on your mail template<a class="headerlink" href="#defining-a-default-reply-to-on-your-mail-template" title="Permanent link">¶</a></h3>
+<p>Although the field reply to is available within the mail templates, <strong>this field is only used for mass mailing mode</strong> (this means when sending templates on what we call bulk emailing). You can send emails in bulk in almost every app that has a list view. Select the records you want and click on the action button. If you have an option to send an email, you will see a mail composer with possible values to define:
+<br/><br/>
+You can also define them by default on the template:
+<br/><br/>
+Because of this, setting a value in this field is useless as the value defined will be totally ignored. The default reply-to value is the default catchall email address to ensure a communication between your customer and your PerfectWORK database. For more information about the way the catchall works, please check how to manage inbound messages.</p>
+<h3 id="transactional-emails-and-corresponding-url-for-each-company">Transactional emails and corresponding URL for each company<a class="headerlink" href="#transactional-emails-and-corresponding-url-for-each-company" title="Permanent link">¶</a></h3>
+<p>When using PerfectWORK, multiple events trigger the sending of automated emails. These emails are known as transactional emails and sometimes contain links pointing to your PerfectWORK database.</p>
+<p>By default, links generated by the database use the dynamic web.base.url key defined in the system parameters. More information about this parameter.</p>
+<p>If the website application isn’t installed, the web.base.url key will always be the default parameter used to generate all the links.</p>
+<p>It’s important to know that this key can only have a single value, meaning that in a multi-website/company database environment, even if you have a specific domain name for each website, the links generated to share a document or within a transactional email might remain the same, whatever the website/company related to the sending of the email/document.</p>
+<p>This is not always the case as some PerfectWORK applications have a link established in the database with the website application, meaning that in this case, if a specific domain is defined for the websites, the URL generated in the email template will use the domain defined on the corresponding website of the company.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>A document shared using the documents application will always use the web.base.url key, as the document shared isn’t associated with any particular website. Meaning that the URL will always be the same (the web.base.url key value), whatever the company it’s shared from, this is a known limitation!</p>
+</div>
+<p>On the other hand, sales orders made by a customer on one of your PerfectWORK e-commerce websites have a link established with the website from which the order was made. As a result, the e-mail sent for the sales orders uses the domain name defined for the corresponding website to generate the links.</p>
+<p>For more information about how to configure your domains, we invite you to check our domain name documentation.</p>
+<h4 id="updating-translations-within-email-templates">Updating translations within email templates<a class="headerlink" href="#updating-translations-within-email-templates" title="Permanent link">¶</a></h4>
+<p>Email templates are automatically translated. Changing the translations shouldn’t be necessary. However, if for a specific reason you’d like to change some of the translations, this can be done.</p>
+<p>Like any modification in the code, keep in mind that modifications that aren’t done correctly (for example modifications leading to bad syntax) can break the template, as a result, the template will appear blank.</p>
+<p>In order to edit your translations, follow these steps from the template.</p>
+<p>Click on the edit button, then on the language button</p>
+<ul>
+<li>Edit the language of a template</li>
+<li>A pop-up window with the different languages installed on the database will be displayed. From here, editing the translations will be possible. Don’t forget to hit the save button to preserve your changes.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">¶</a></h2>
+<p>This document contains an explanation of the most recurring mailing concerns.</p>
+<p>We will start by addressing issues of outgoing emails (ex: my client has not received my email), and then, of incoming emails (ex: I do not receive responses from my customers in the database).</p>
+<h3 id="outgoing-emails">Outgoing emails<a class="headerlink" href="#outgoing-emails" title="Permanent link">¶</a></h3>
+<h4 id="what-do-you-have-to-check-if-your-email-is-not-sent">What do you have to check if your email is not sent?<a class="headerlink" href="#what-do-you-have-to-check-if-your-email-is-not-sent" title="Permanent link">¶</a></h4>
+<p>The first indicator showing you that the email has not been sent is the red envelope next to the date and time of the message.</p>
+<h5 id="common-error-messages">Common error messages<a class="headerlink" href="#common-error-messages" title="Permanent link">¶</a></h5>
+<p>You reached your daily limit:
+<div class="highlight"><pre><span></span><code>Warning in PerfectWORK upon email limit reached
+</code></pre></div>
+Each email service provider has its own email sending limits. The limits may be daily, hourly, and sometimes even per minute. This is the same for PerfectWORK, we have to limit our customers to prevent our e-mail servers from being blacklisted.</p>
+<p>Here are the default limits for new databases:</p>
+<ul>
+<li>
+<p>200 emails/day for PerfectWORK Online and PerfectWORK.sh databases with an active subscription,</p>
+</li>
+<li>
+<p>50 emails/day for one-app free and trial databases,</p>
+</li>
+<li>
+<p>in case of migration, your daily limit might be reset to 50 emails a day.</p>
+</li>
+</ul>
+<p>In case you hit the limit, you can:</p>
+<ul>
+<li>
+<p>Ask our support team to increase your daily limit. We will analyze the situation of your database depending on (non-exhaustive list):</p>
+<ul>
+<li>
+<p>How many users in your database,</p>
+</li>
+<li>
+<p>Which apps are installed,</p>
+</li>
+<li>
+<p>Your bounce rate: the percentage of email addresses that did not receive your emails because it was returned by a mail server on its way to the final recipient. You can contact the support.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Use your own outgoing email server to be independent of PerfectWORK’s mail limit (please refer to the corresponding documentation),</p>
+</li>
+<li>
+<p>Wait until 11pm UTC for the reset and click on the retry button: The Developer mode must be activated. Then, go to <strong>Settings ‣ Technical ‣ Emails</strong></p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The daily limit is global to your database and can rise quickly! By default an internal message, a notification, a note, etc. counts as an email in your daily limit if it notifies someone.</p>
+</div>
+<p>You can mitigate this by receiving your notifications in PerfectWORK instead of by emails.</p>
+<h5 id="smtp-error">SMTP Error<a class="headerlink" href="#smtp-error" title="Permanent link">¶</a></h5>
+<p>You can find out why an email wasn’t transmitted successfully by reviewing the Simple Mail Transport Protocol (SMTP) error messages. SMTP is a protocol to describe the email structure and transmit it over the Internet, and the error messages generated by email services are helpful tools to diagnose and troubleshoot email problems.</p>
+<h5 id="no-error">No Error<a class="headerlink" href="#no-error" title="Permanent link">¶</a></h5>
+<p>PerfectWORK is not always capable of providing information for the reason it failed. The different providers implement a personalized policy of the bounce emails and it is not always possible for PerfectWORK to interpret it correctly.
+<br/><br/>
+If you have this problem on a recurring basis with the same client or the same domain, please do not hesitate to contact PerfectWORK Support for help in finding a reason.</p>
+<p>Note: in such case, one of the most common reasons is related to SPF and/or DKIM configuration.</p>
+<h5 id="why-is-my-email-sent-late">Why is my email sent late?<a class="headerlink" href="#why-is-my-email-sent-late" title="Permanent link">¶</a></h5>
+<p>It may happen that you schedule an email campaign but it is not sent on time. We know that we use a delayed job to send emails that we consider as not urgent (Newsletters concept such as mass mailing, marketing automation, events). The system utility cron can be used to schedule programs to run automatically at predetermined intervals. We use that policy in order to avoid cluttering the mail servers and prioritize the communication.
+<br/><br/>
+The emails considered urgent (communication from one person to another one such as Sales Orders, Invoices, Purchase Orders, etc.) are sent directly.
+<br/><br/>
+By default, the Mass Mailing cron runs every 60 minutes. So, you should wait maximum an hour before the campaign is actually sent.</p>
+<h3 id="incoming-emails">Incoming emails<a class="headerlink" href="#incoming-emails" title="Permanent link">¶</a></h3>
+<p>When you have an issue with incoming emails, there might not be an indication per se in PerfectWORK. This is the client who tries to contact a database who will get a bounce (most of the time 550: mailbox unavailable).</p>
+<h4 id="emails-are-not-received">Emails are not received<a class="headerlink" href="#emails-are-not-received" title="Permanent link">¶</a></h4>
+<p>Depending on the platform you are using:</p>
+<h4 id="get-help-from-support">Get help from support<a class="headerlink" href="#get-help-from-support" title="Permanent link">¶</a></h4>
+<p>In order to get helped efficiently, please provide as much information as possible. Here is a list of what can be helpful:</p>
+<ul>
+<li>
+<p>The <strong>EML</strong> of the email, stating for Electronic Mail, is the file format containing all the technical information required for an investigation. The documentation of your own email provider might help you on how to get your EML files. Once you get the EML of the email, adding it in the attachment of your ticket is the most efficient way for us to investigate. The support will mainly focus on redundant issues.</p>
+</li>
+<li>
+<p>The exact flow you are following in order to normally receive those emails in PerfectWORK. Here are examples of questions whose answers can be useful:</p>
+<ul>
+<li>Is this simply a reply from an email going out from PerfectWORK ?</li>
+<li>Are you using an incoming email server or somehow redirecting?</li>
+<li>Can you provide us with an example of an email that has been correctly forwarded ?</li>
+</ul>
+</li>
+<li>
+<p>Providing answers to the following questions:</p>
+<ul>
+<li>Is it a generic issue or is it specific to a use case? If yes, which one exactly?</li>
+<li>Is it working as expected? In case the email is sent using PerfectWORK, the bounce email should reach the PerfectWORK database and display the red envelope.</li>
+</ul>
+</li>
+</ul>
+<form class="md-feedback" hidden="" name="feedback">
+<fieldset>
+<legend class="md-feedback__title">
+</legend>
+<div class="md-feedback__inner">
+<div class="md-feedback__list">
+</div>
+<div class="md-feedback__note">
+</div>
+</div>
+</fieldset>
+</form>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: CONNECT Application" class="md-footer__link md-footer__link--prev" href="../01_overview/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              CONNECT Application
+            </div>
+</div>
+</a>
+<a aria-label="Next: Application &amp; Modules" class="md-footer__link md-footer__link--next" href="../../10_apps_integration/03_modules/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Application &amp; Modules
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      This documentation is hosted by <a href="https://perfectwork.app/">PerfectWORK</a>
+</div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "tabs"], "search": "../../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../../../assets/javascripts/bundle.48f2be22.min.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script src="../../../../javascripts/extra.js"></script>
+</body>
+</html>
