@@ -33,14 +33,14 @@ hide:
         <div class="font-regular text-l mb-2" >Busienss Requirement</div>
       </div>
     </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/getting_started.jpg" alt="Platform">
+    <a href="05_managing_products" class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="assets/managing_products.jpg" alt="Managing Products">
       <div class="px-6 py-2">
         <div class="font-regular text-l mb-2" >Managing Products</div>
       </div>
     </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/getting_started.jpg" alt="Platform">
+    <a href="06_managing_pricing" class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="assets/managing_pricing.jpg" alt="Managing Pricing">
       <div class="px-6 py-2">
         <div class="font-regular text-l mb-2" >Managing Pricing</div>
       </div>

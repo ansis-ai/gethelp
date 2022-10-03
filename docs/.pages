@@ -1,5 +1,5 @@
 nav:
     - index.md
-    - 01_application
+    - 01_application_guide
     - 02_solution_guide
-    - 04_developer
+    - 04_developer_guide

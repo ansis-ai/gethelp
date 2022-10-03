@@ -24,7 +24,7 @@ hide:
         <div class="font-regular text-l mb-2">Finance & Accounting</div>
       </div>
     </a>
-    <a href="03_sales" class="rounded overflow-hidden shadow-lg">
+    <a href="03_sales_distribution" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/sales.jpg" alt="Forest">
       <div class="px-6 py-4">
         <div class="font-regular text-l mb-2">Sales & Distribution</div>

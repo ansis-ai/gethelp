@@ -10,10 +10,10 @@ hide:
     <div class="flex bg-white" style="height:500px;">
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
             <div>
-                <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Perfecting your decision with<br /><span class="text-red-600">PerfectWORK</span></h2>
+                <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Perfecting your decision with<br /><span class="text-red-600">PerfectWORK 3.0</span></h2>
                 <p class="mt-2 text-sm text-gray-500 md:text-base">Welcome to the PerfectWORK Documentation. Here you will find information and resources to help you learn about PerfectWORK, the next generation business information system with powerful modular design covering all essential aspects of a business.</p>
                 <div class="flex md:mt-4 mt-6">
-        <a href="01_application"><button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">Documentation</button></a>
+        <a href="01_application_guide"><button class="inline-flex text-white bg-green-500 border-0 py-1 px-4 focus:outline-none hover:bg-green-600 rounded">Documentation</button></a>
         <a href="https://perfectwork.app" class="text-green-500 inline-flex items-center ml-4">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24" ></svg>
         </a>
