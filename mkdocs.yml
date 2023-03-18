@@ -1,11 +1,11 @@
 site_name: PerfectWORK Documentation
-site_url: https://perfectwork-app.github.io/gethelp/
-repo_url: https://github.com/perfectwork-app/gethelp
+site_url: https://willylohws.github.io/gethelp/
+repo_url: https://github.com/willylohws/gethelp
 repo_name: perfectwork-app/gethelp
 edit_uri: blob/3.0/docs/
 
 # Copyright
-copyright: PerfectWORK 2022
+copyright: PerfectWORK 2023
 
 theme:
   name: material
