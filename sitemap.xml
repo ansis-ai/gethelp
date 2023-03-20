@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_finance/01_getting_started/02_cheat_sheet/</loc>
+         <lastmod>2023-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/02_finance/01_getting_started/02_configuration/01_initial_setup/</loc>
          <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
@@ -172,6 +177,21 @@
     </url>
     <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/05_website/01_getting_started/</loc>
+         <lastmod>2023-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/05_website/01_getting_started/01_publish/</loc>
+         <lastmod>2023-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/05_website/01_getting_started/02_multi_website/</loc>
+         <lastmod>2023-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/05_website/01_getting_started/03_optimize/</loc>
          <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
