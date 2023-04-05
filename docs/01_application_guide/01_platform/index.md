@@ -15,7 +15,7 @@ hide:
 <div class="relative bg-white overflow-hidden">
  <div class="p-7 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-5">
     <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/getting_started.jpg" alt="Platform">
+      <img class="w-full" src="assets/platform.jpg" alt="Platform">
       <div class="px-6 py-2">
         <div class="font-regular text-l mb-2" >Getting Started</div>
       </div>
@@ -35,19 +35,13 @@ hide:
     <a href="01_getting_started/01_overview" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/calendar.jpg" alt="Platform">
       <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Calendar</div>
-      </div>
-    </a>
-    <a href="01_getting_started/01_overview" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/scheduling.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Resource Scheduling</div>
+        <div class="font-regular text-l mb-2" >Calendar & Resource Scheduling</div>
       </div>
     </a>
     <a href="01_getting_started/01_overview" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/knowledge.jpg" alt="Platform">
       <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Document & Knowledge Management</div>
+        <div class="font-regular text-l mb-2" >Knowledge Management</div>
       </div>
     </a>
 </div>
