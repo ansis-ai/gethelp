@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/01_platform/01_getting_started/10_localization/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/01_platform/02_companies_users/01_companies/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
@@ -86,17 +91,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/02_journal_entries/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/02_account_group/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/03_reconciliation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/03_journal/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/04_transactions/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/04_continental_accounting/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/06_anglo_saxon_accounting/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/30_reconciliation/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/40_accounting_methods/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/50_term_used/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/02_accounting_concept/90_transactions_examples/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/01_getting_started/03_configuration/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -231,22 +266,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/03_bank_reconciliation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/03_import_bank_statement/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/04_reconciliation_model/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/04_bank_reconciliation/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/05_bank_foreign_currency/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/05_reconciliation_model/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/06_cash_register/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/06_reconciliation/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/07_bank_foreign_currency/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/04_bank_cash/08_cash_register/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -296,6 +341,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/05_inventory_valuation/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/05_inventory_valuation/01_configuration/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/05_inventory_valuation/02_automated_inventory_valuation/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/05_inventory_valuation/03_manual_inventory_valuation/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
@@ -306,7 +371,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/04_automatic_transfer/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/04_internalc_transfer/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -321,6 +386,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/09_tax_lock_dates/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/10_closing_fiscal_period/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/01_asset_management/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
@@ -331,42 +406,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/08_analytic_accounting/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/07_taxes/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/08_analytic_accounting/01_configuration/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/07_taxes/02_cash_basis_taxes/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/08_analytic_accounting/02_automated_inventory_valuation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/07_taxes/03_withholding_taxes/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/08_analytic_accounting/03_manual_inventory_valuation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/07_taxes/04_fiscal_position/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/10_inventory_valuation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/07_taxes/05_b2b_b2c_pricing/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/10_inventory_valuation/01_configuration/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/08_reporting/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/10_inventory_valuation/02_automated_inventory_valuation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/09_analytic_accounting/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/10_inventory_valuation/03_manual_inventory_valuation/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/10_fiscal_localization/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
