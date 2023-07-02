@@ -301,17 +301,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/03_budget_management/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/04_automatic_transfer/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/05_deferred_revenues/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/06_deferred_expenses/</loc>
+         <lastmod>2023-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/01_asset_management/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/02_budget_management/</loc>
-         <lastmod>2023-07-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/03_automatic_transfer/</loc>
+         <loc>https://willylohws.github.io/gethelp/01_application_guide/02_accounting/06_management/01_asset_management/02_asset_depreciation/</loc>
          <lastmod>2023-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
