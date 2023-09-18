@@ -5,9 +5,11 @@ hide:
   - navigation
   - toc
 ---
-#
+
+<script src="https://cdn.tailwindcss.com"></script>
+             
 <div class="w-full">
-    <div class="flex bg-white" style="height:500px;">
+    <div class="flex bg-white" style="height:350px;">
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
             <div>
                 <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Perfecting your decision with<br /><span class="text-red-600">PerfectWORK 5.0</span></h2>

@@ -17,14 +17,14 @@ As PerfectWORK is based on Odoo framework, table below shows the matching of Odo
 
 !!! note "PerfectWORK and Odoo version"
 
-    | **PerfectWORK**     | **Odoo Community** |
-    | :-----------: | :-----------: |
-    | **2.0**     | 11.0       |
-    | 2.5     | 12.0       |
-    | **3.0**     | 13.0       |
-    | 3.3     | 14.0       |
-    | 3.6     | 15.0       |
-    | _**4.0**_     | 16.0       |
+    | **PerfectWORK** | **Odoo Community** |
+    | :-------------: | :----------------: |
+    |     **2.0**     |        11.0        |
+    |       2.5       |        12.0        |
+    |     **3.0**     |        13.0        |
+    |       3.3       |        14.0        |
+    |       3.6       |        15.0        |
+    |    _**4.0**_    |        16.0        |
 
 ### Introduction
 
@@ -114,7 +114,7 @@ When migrating across several versions of Odoo, setting the target version as an
 export OPENUPGRADE_TARGET_VERSION=13.0
 (when migrating up to 13.0)
 
-##### Obsolete options in the Odoo configuration file¶
+##### Obsolete options in the Odoo configuration file
 Versions of OpenUpgrade earlier than 14.0 allow for the following configuration options. Add these options to a separate stanza in the server configuration file under a header [openupgrade]
 
 - **autoinstall** - A dictionary with module name keys and lists of module names as values. If a key module is installed on your database, the modules from the value (and their dependencies) are selected for installation as well.

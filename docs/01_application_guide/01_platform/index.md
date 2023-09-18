@@ -6,15 +6,27 @@ hide:
   - toc
 ---
 
-<div class="container px-5 py-1 mx-auto flex flex-wrap">
-  <h1 class="text-l text-gray-700 font-medium">PerfectWORK PLATFORM</h1>
-</div>
+PerfectWORK is a very feature-filled business application framework, with literally hundreds of applications and modules available. When you first access your PerfectWORK instance, the only functionality you will have is a limited messaging options between users. From there, PerfectWORK allows you to purchase and install the applications you need, as you need them. This flexibility makes PerfectWORK much more accessible than many business software solutions.
+
+<br />
+
+Not long ago, nearly all companies kept their primary information systems in-house. This approach not only requires a lot of capital expense in purchasing servers and software licenses, but also creates a lot of responsibilities and risks in backing up data and ensuring business continuity. Today, more and more companies are choosing to host their business applications in online networks commonly called the cloud. PerfectWORK allows you the flexibility of both options—either hosting on your own hardware, or utilizing PerfectWORK's online software services.
+
+<br />
+
+The best thing about accessing PerfectWORK Online is that you can jump in and start using the software right away. You don't have to decide what operating system (OS) to use, and you don't have to install any software at all. Just enter the URL into your web browser and you are ready to get started.
+
+<br />
+
+Another added benefit of taking this approach is that you will verify that your web browser is up to date and compatible with the latest version of PerfectWORK. You can expect to put a great deal of time into determining which PerfectWORK applications / modules are right for your company.
+Taking a few hours to use the PerfectWORK Online version is time well spent, and you can put off installing PerfectWORK until you are more certain it is the right software for your business.
+
 
 <section>
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white overflow-hidden">
  <div class="p-7 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-5">
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
+    <a href="01_getting_started/01_overview" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/platform.jpg" alt="Platform">
       <div class="px-6 py-2">
         <div class="font-regular text-l mb-2" >Getting Started</div>
@@ -47,22 +59,3 @@ hide:
 </div>
 </section>
 
-<br />
-
-Nothing is easier for you to discover PerfectWORK than subscribing to the PerfectWORK Online offer. You just need a web browser to get started.
-
-<br />
-
-The Online service can be particularly useful to any companies, that just want to get going quickly at low cost. You have immediate access to PerfectWORK's Integrated Business Management System built on the type of enterprise architecture used in many organizations.
-
-<br />
-
-PerfectWORK's Online offer includes several services: hosting at high bandwidth, database management, stable security update, backups, maintenance (24/7 server monitoring), bug fixing and migrations.
-
-<br />
-
-So even if the PerfectWORK Online solution might be the best solution to suit your needs today, you can easily switch to other cloud providers; such as AWS, Google Cloud or Microsoft Azure according to your company's changing requirements or growth, while continuing to use the exact same system. Hence, you do not depend on your host. In addition, PerfectWORK works with standard and open formats and programming languages which allow you to export your data and use them in any other software.
-
-<br />
-
-These advantages give you total control over your data, your software, your platform.

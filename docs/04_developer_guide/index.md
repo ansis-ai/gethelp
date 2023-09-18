@@ -6,9 +6,6 @@ hide:
   - toc
 ---
 
-<div class="container px-5 py-1 mx-auto flex flex-wrap">
-  <h1 class="text-l text-gray-700 font-medium">Development Guide</h1>
-</div>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white overflow-hidden">
@@ -19,7 +16,13 @@ hide:
         <div class="font-regular text-l mb-2">PW CLI</div>
       </div>
     </a>
-    <a href="09_external_api"  class="rounded overflow-hidden shadow-lg">
+    <a href="60_open_upgrade"  class="rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="assets/open_upgrade.jpg" alt="External API" >
+      <div class="px-6 py-4">
+        <div class="font-regular text-l mb-2">Upgrading PerfectWORK</div>
+      </div>
+    </a>
+    <a href="90_external_api"  class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/developer.jpg" alt="External API" >
       <div class="px-6 py-4">
         <div class="font-regular text-l mb-2">External API</div>

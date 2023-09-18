@@ -12,11 +12,7 @@ theme:
   logo: assets/pw_logo.png
   favicon: assets/pw_logo.png
   font:
-    text: Nunito
-  # icon:
-  #   repo: fontawesome/brands/github
-  #   admonition:
-  #     <type>: <icon> 
+    text: Roboto
   navigation_depth: 5
   highlightjs: true
   hljs_languages:
@@ -26,6 +22,7 @@ theme:
       - js
   features:
     - content.code.annotate
+    - content.code.copy
     - navigation.footer
     - navigation.instant
     - navigation.tabs
@@ -64,8 +61,6 @@ extra:
     actions:
       - accept
       - manage
-  version:
-    provider: mike
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
@@ -77,27 +72,22 @@ extra:
         name: This page could be improved
         data: 0
   generator: false
-  # social:
-  #   - icon: fontawesome/brands/github
-  #     link: https://github.com/squidfunk
-  #   - icon: fontawesome/brands/gitter
-  #     link: https://gitter.im/squidfunk/mkdocs-material
-  #   - icon: fontawesome/brands/docker
-  #     link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/squidfunk
-  #   - icon: fontawesome/brands/linkedin
-  #     link: https://linkedin.com/in/squidfunk/
-  #   - icon: fontawesome/brands/instagram
-  #     link: https://instagram.com/squidfunk
+
 
 extra_css:
   - stylesheets/extra.css
   - stylesheets/tailwind.css
+  - stylesheets/accounting.css
 extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js
+  # - https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react-with-addons.min.js
   - javascripts/extra.js
-
+  - javascripts/atom.js
+  - javascripts/misc.js
+  - javascripts/accounts.js
+  - javascripts/chart-of-accounts.js
+  - javascripts/entries.js
+  - javascripts/reconciliation.js
 
 # Extensions
 markdown_extensions:
@@ -121,8 +111,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
@@ -130,49 +125,21 @@ markdown_extensions:
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.snippets
   - pymdownx.tilde
 
 plugins:
   - search
   - autorefs
-  - mermaid2
   - monorepo
   - awesome-pages
   - macros
-  - encryptcontent: {
-      summary: 'For Partners / Employees Only',
-      placeholder: 'Enter Password',
-      encryption_info_message: 'Contact Us for Partner Access Program',
-    } 
   - redirects:
       redirect_maps:
-        # upgrading.md: upgrade.md
         reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        # sponsorship.md: insiders/index.md
-  # This is not working with Mermaid2
-  # - minify:
-  #     minify_html: true
-  #     minify_js: true
-  #     minify_css: true
-  #     htmlmin_opts:
-  #         remove_comments: true
-
-# nav:
-#     - Get Started: 'index.md'
-#     - User Guides: '!include ./01_user/mkdocs.yml'
-#     - Industrial Solution: '!include ./03_industrial/mkdocs.yml'
-#     - Notebook page: notebook.ipynb
-#     - Python file: python_script.py
 copyright: This documentation is hosted by <a href="https://perfectwork.app/">PerfectWORK</a>
 site_author: PerfectWORK
 nav:
