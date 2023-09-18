@@ -1,0 +1,3827 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="PerfectWORK">
+      
+      
+        <link rel="canonical" href="https://willylohws.github.io/gethelp/01_application_guide/60_inventory_manufacturing/02_inventory_operations/">
+      
+      <link rel="icon" href="../../../assets/pw_logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-8.3.9">
+    
+    
+  <title>PerfectWORK</title>
+
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/tailwind.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/accounting.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creating-new-operation-types" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://perfectwork.app" title="PerfectWORK Documentation" class="md-header__button md-logo" aria-label="PerfectWORK Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/pw_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PerfectWORK Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inventory Operations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/willylohws/gethelp" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    willylohws/gethelp
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Getting Started
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
+        Application Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../04_developer_guide/" class="md-tabs__link">
+        Developer Guide
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://perfectwork.app" title="PerfectWORK Documentation" class="md-nav__button md-logo" aria-label="PerfectWORK Documentation" data-md-component="logo">
+      
+  <img src="../../../assets/pw_logo.png" alt="logo">
+
+    </a>
+    PerfectWORK Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/willylohws/gethelp" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    willylohws/gethelp
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../">Application Guide</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Application Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Application Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../01_platform/">Platform</a>
+          
+            <label for="__nav_2_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Platform" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Platform
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_2" type="checkbox" id="__nav_2_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_2">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/01_getting_started/01_overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/01_getting_started/02_navigation/" class="md-nav__link">
+        Navigation - UI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/01_getting_started/10_localization/" class="md-nav__link">
+        Localization
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_3" type="checkbox" id="__nav_2_2_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_3">
+          Companies and Users
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Companies and Users" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Companies and Users
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/02_companies_users/01_companies/" class="md-nav__link">
+        Companies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/02_companies_users/10_users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_4" type="checkbox" id="__nav_2_2_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_4">
+          Collaboration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Collaboration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Collaboration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/03_connect/01_overview/" class="md-nav__link">
+        CONNECT Application
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/03_connect/02_email_communication/" class="md-nav__link">
+        Email Communication
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_5" type="checkbox" id="__nav_2_2_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2_5">
+          Application Integration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Application Integration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Application Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/10_apps_integration/03_modules/" class="md-nav__link">
+        Application & Modules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/10_apps_integration/05_authentication/" class="md-nav__link">
+        Authentication
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/10_apps_integration/06_google/" class="md-nav__link">
+        Google
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_platform/10_apps_integration/07_unsplash/" class="md-nav__link">
+        Unsplash
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/">Accounting & Finance</a>
+          
+            <label for="__nav_2_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Accounting & Finance" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Accounting & Finance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/01_accounting_concept/">Accounting Concepts</a>
+          
+            <label for="__nav_2_3_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Accounting Concepts" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Accounting Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/01_notes_accounting/" class="md-nav__link">
+        More Info on Accounting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/02_account_group/" class="md-nav__link">
+        Account Groups
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/03_journal/" class="md-nav__link">
+        Journals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/04_continental_accounting/" class="md-nav__link">
+        Continental Accounting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/06_anglo_saxon_accounting/" class="md-nav__link">
+        Anglo-Saxon Accounting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/30_reconciliation/" class="md-nav__link">
+        Reconciliation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/40_accounting_methods/" class="md-nav__link">
+        Accounting Methods
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/50_term_used/" class="md-nav__link">
+        Terms Used in Accounting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/01_accounting_concept/90_transactions_examples/" class="md-nav__link">
+        Transactions Examples
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/10_bank_cash/">Bank & Cash</a>
+          
+            <label for="__nav_2_3_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Bank & Cash" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Bank & Cash
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/01_settings/" class="md-nav__link">
+        Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/10_chart_of_accounts/" class="md-nav__link">
+        Chart of Accounts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/11_journal/" class="md-nav__link">
+        Journal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/22_transactions/" class="md-nav__link">
+        Transactions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/25_taxes/" class="md-nav__link">
+        Taxes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/26_expenses/" class="md-nav__link">
+        Expenses
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/28_fiscal_position/" class="md-nav__link">
+        Fiscal Position
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/30_bank_account/" class="md-nav__link">
+        Bank Account
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/32_payment_acquirers/" class="md-nav__link">
+        Payment Acquirers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/33_import_bank_statement/" class="md-nav__link">
+        Import Bank Statement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/44_bank_reconciliation/" class="md-nav__link">
+        Bank Reconciliation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/55_reconciliation_model/" class="md-nav__link">
+        Reconciliation Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/77_bank_foreign_currency/" class="md-nav__link">
+        Bank Account in Foreign Currency
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/88_cash_register/" class="md-nav__link">
+        Cash Register
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_16" type="checkbox" id="__nav_2_3_3_16" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/10_bank_cash/01_journal_entries/">Journal Entries</a>
+          
+            <label for="__nav_2_3_3_16">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Journal Entries" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_16">
+          <span class="md-nav__icon md-icon"></span>
+          Journal Entries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/01_journal_entries/01_sales_purchase/" class="md-nav__link">
+        Sales & Purchase
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/01_journal_entries/02_stock_movement/" class="md-nav__link">
+        Stock Movement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/01_journal_entries/03_customer_payment/" class="md-nav__link">
+        Customer Payments
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/01_journal_entries/10_cancel_journal/" class="md-nav__link">
+        Canceling Journal Entries
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3_17" type="checkbox" id="__nav_2_3_3_17" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/10_bank_cash/05_bank_synchronization/">Bank Synchronization</a>
+          
+            <label for="__nav_2_3_3_17">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Bank Synchronization" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_3_17">
+          <span class="md-nav__icon md-icon"></span>
+          Bank Synchronization
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/05_bank_synchronization/01_salt_edge/" class="md-nav__link">
+        Salt Edge
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/05_bank_synchronization/02_dbs/" class="md-nav__link">
+        DBS Bank
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/10_bank_cash/05_bank_synchronization/03_ocbc/" class="md-nav__link">
+        OCBC Bank
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4" type="checkbox" id="__nav_2_3_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/20_accounts_receivable/">Accounts Receivable</a>
+          
+            <label for="__nav_2_3_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Accounts Receivable" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Accounts Receivable
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/30_payment_terms/" class="md-nav__link">
+        Payment Terms
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/66_reconciliation/" class="md-nav__link">
+        Reconciliation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4_4" type="checkbox" id="__nav_2_3_4_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/20_accounts_receivable/01_customer_invoices/">Customer Invoices</a>
+          
+            <label for="__nav_2_3_4_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Customer Invoices" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Customer Invoices
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/01_customer_invoices/01_invoicing_process/" class="md-nav__link">
+        Invoicing Process
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/01_customer_invoices/02_offer_cash_discount/" class="md-nav__link">
+        Offer Cash Discounts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/01_customer_invoices/03_cash_rounding/" class="md-nav__link">
+        Cash Rounding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/01_customer_invoices/04_credit_notes/" class="md-nav__link">
+        Credit Notes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_4_5" type="checkbox" id="__nav_2_3_4_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_4_5">
+          Customer Payments
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Customer Payments" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Customer Payments
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/02_customer_payment/01_different_way_payment/" class="md-nav__link">
+        Register Payment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/02_customer_payment/02_payment_process/" class="md-nav__link">
+        Payment Process
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/20_accounts_receivable/02_customer_payment/03_followup_level/" class="md-nav__link">
+        Follow Up Levels
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_5" type="checkbox" id="__nav_2_3_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/30_account_payable/">Account Payable</a>
+          
+            <label for="__nav_2_3_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Account Payable" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Account Payable
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/30_account_payable/02_vendor_bills/" class="md-nav__link">
+        Vendor Bills
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/30_account_payable/03_vendor_payment/" class="md-nav__link">
+        Vendor Payment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/30_account_payable/04_refunds/" class="md-nav__link">
+        Vendor Refunds
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_6" type="checkbox" id="__nav_2_3_6" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/50_inventory_valuation/">Inventory Valuation</a>
+          
+            <label for="__nav_2_3_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Inventory Valuation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Inventory Valuation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/50_inventory_valuation/01_configuration/" class="md-nav__link">
+        Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/50_inventory_valuation/02_automated_inventory_valuation/" class="md-nav__link">
+        Automated Inventory Valuation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/50_inventory_valuation/03_manual_inventory_valuation/" class="md-nav__link">
+        Manual Inventory Valuation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7" type="checkbox" id="__nav_2_3_7" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/60_management/">Management</a>
+          
+            <label for="__nav_2_3_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Management" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/03_budget_management/" class="md-nav__link">
+        Budget Management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/04_internalc_transfer/" class="md-nav__link">
+        Internal Transfers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/05_deferred_revenues/" class="md-nav__link">
+        Deferred Revenues
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/06_deferred_expenses/" class="md-nav__link">
+        Deferred Expenses
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/09_tax_lock_dates/" class="md-nav__link">
+        Tax Lock Dates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/10_closing_fiscal_period/" class="md-nav__link">
+        Closing Fiscal Period
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_7_8" type="checkbox" id="__nav_2_3_7_8" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/60_management/01_asset_management/">Assets Management</a>
+          
+            <label for="__nav_2_3_7_8">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Assets Management" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_7_8">
+          <span class="md-nav__icon md-icon"></span>
+          Assets Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/60_management/01_asset_management/02_asset_depreciation/" class="md-nav__link">
+        Depreciation & Depreciation Schedules
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_8" type="checkbox" id="__nav_2_3_8" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/70_taxes/">Taxation</a>
+          
+            <label for="__nav_2_3_8">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Taxation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          Taxation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/70_taxes/02_cash_basis_taxes/" class="md-nav__link">
+        Cash Basis Taxes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/70_taxes/03_withholding_taxes/" class="md-nav__link">
+        Withholding Taxes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/70_taxes/04_fiscal_position/" class="md-nav__link">
+        Fiscal Positions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_accounting/70_taxes/05_b2b_b2c_pricing/" class="md-nav__link">
+        B2B and B2C Pricing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_9" type="checkbox" id="__nav_2_3_9" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/80_reporting/">Reporting</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Reporting" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          Reporting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_10" type="checkbox" id="__nav_2_3_10" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/90_analytic_accounting/">Analytics Accounting</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Analytics Accounting" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_10">
+          <span class="md-nav__icon md-icon"></span>
+          Analytics Accounting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_11" type="checkbox" id="__nav_2_3_11" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../20_accounting/98_fiscal_localization/">Fiscal Localization</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Fiscal Localization" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_11">
+          <span class="md-nav__icon md-icon"></span>
+          Fiscal Localization
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../30_sales_distribution/">Sales & Distribution</a>
+          
+            <label for="__nav_2_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Sales & Distribution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sales & Distribution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_2" type="checkbox" id="__nav_2_4_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../30_sales_distribution/05_managing_products/">Managing Pricing</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Managing Pricing" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Managing Pricing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_3" type="checkbox" id="__nav_2_4_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../30_sales_distribution/06_managing_pricing/">Managing Pricing</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Managing Pricing" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Managing Pricing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../40_crm_marketing/">CRM & Marketing</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="CRM & Marketing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          CRM & Marketing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../50_website/">Website & eCommerce</a>
+          
+            <label for="__nav_2_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Website & eCommerce" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Website & eCommerce
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6_2" type="checkbox" id="__nav_2_6_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../50_website/01_getting_started/">Website - Getting Started</a>
+          
+            <label for="__nav_2_6_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Website - Getting Started" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Website - Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../50_website/01_getting_started/01_publish/" class="md-nav__link">
+        Publish Website
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../50_website/01_getting_started/02_multi_website/" class="md-nav__link">
+        Manage Multiple Websites
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../50_website/01_getting_started/03_optimize/" class="md-nav__link">
+        Manage Multiple Websites
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Manufacturing & Warehouse</a>
+          
+            <label for="__nav_2_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Manufacturing & Warehouse" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          Manufacturing & Warehouse
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7_2" type="checkbox" id="__nav_2_7_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../01_warehouse_management/">Warehouse Management</a>
+          
+            <label for="__nav_2_7_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Warehouse Management" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Warehouse Management
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7_2_2" type="checkbox" id="__nav_2_7_2_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../01_warehouse_management/01_products/">Products</a>
+          
+            <label for="__nav_2_7_2_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Products" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_7_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Products
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/01_products/02_product_variants/" class="md-nav__link">
+        Variants
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/01_products/03_product_categories/" class="md-nav__link">
+        Categories
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/01_products/04_product_packaging/" class="md-nav__link">
+        Packages & Packaging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/01_products/05_products_traceability/" class="md-nav__link">
+        Traceability
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7_2_3" type="checkbox" id="__nav_2_7_2_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../01_warehouse_management/02_warehouses/">Warehouses</a>
+          
+            <label for="__nav_2_7_2_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Warehouses" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_7_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Warehouses
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/02_warehouses/02_locations/" class="md-nav__link">
+        Locations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_warehouse_management/02_warehouses/03_rules_routes/" class="md-nav__link">
+        Rules & Routes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7_3" type="checkbox" id="__nav_2_7_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Inventory Operations</a>
+          
+            <label for="__nav_2_7_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Inventory Operations" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_7_3">
+          <span class="md-nav__icon md-icon"></span>
+          Inventory Operations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="02_product_variants/" class="md-nav__link">
+        Transfers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../70_supply_chain/">Supply Chain & Logistics</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Supply Chain & Logistics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_8">
+          <span class="md-nav__icon md-icon"></span>
+          Supply Chain & Logistics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../80_human_resources/">Human Resources</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Human Resources" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_9">
+          <span class="md-nav__icon md-icon"></span>
+          Human Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" type="checkbox" id="__nav_2_10" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../90_customer_services/">Customer Services</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Customer Services" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_10">
+          <span class="md-nav__icon md-icon"></span>
+          Customer Services
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_11" type="checkbox" id="__nav_2_11" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../95_retail_store/">Retail Store</a>
+          
+            <label for="__nav_2_11">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Retail Store" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_11">
+          <span class="md-nav__icon md-icon"></span>
+          Retail Store
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_11_2" type="checkbox" id="__nav_2_11_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../95_retail_store/01_getting_started/">Getting Started</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_11_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_11_3" type="checkbox" id="__nav_2_11_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../95_retail_store/02_shop_features/">Shop Features</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Shop Features" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_11_3">
+          <span class="md-nav__icon md-icon"></span>
+          Shop Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../04_developer_guide/">Developer Guide</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Developer Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../04_developer_guide/01_pw_cli/">PW CLI Tool</a>
+          
+            <label for="__nav_3_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="PW CLI Tool" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          PW CLI Tool
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_developer_guide/01_pw_cli/01_api/" class="md-nav__link">
+        API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_developer_guide/01_pw_cli/02_tutorial/" class="md-nav__link">
+        Tutorial
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../04_developer_guide/60_open_upgrade/">Upgrading PerfectWORK</a>
+          
+            <label for="__nav_3_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Upgrading PerfectWORK" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Upgrading PerfectWORK
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_developer_guide/60_open_upgrade/10_running_migration/" class="md-nav__link">
+        Running Migration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_developer_guide/60_open_upgrade/90_after_migration/" class="md-nav__link">
+        After Migration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../04_developer_guide/90_external_api/">External API</a>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="External API" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          External API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-operation-types" class="md-nav__link">
+    Creating new operation types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expiration-date" class="md-nav__link">
+    Expiration Date
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/willylohws/gethelp/blob/3.0/docs/01_application_guide/60_inventory_manufacturing/02_inventory_operations/index.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+  <h1>Inventory Operations</h1>
+
+<p>Odoo Inventory module is the best option for the effective management of all types of inventory operations. Providing proper support for inventory management in a company is essential to run the business flawlessly. When we talk about Odoo as the perfect solution for inventory management, you will be inquisitive about the features it offers. In this section, we will detail the inventory operations managed by Odoo with the dedicated Inventory module. The <strong>Overview</strong> window of the Inventory module itself will give a clear insight into all possible operations managed by the module.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-64.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-64.png" /></a></p>
+<p>From the Kanban view of the Inventory Overview window, you will be able to manage the Receipt, Internal Transfers, Delivery Orders, Returns, Manufacturing, Resupply Subcontractor, POS Orders, Dropship, Dropship Subcontractor, and many more based on the operations configured in the module. You will get exclusive options in the menu bar of the Inventory module to manage all these operations separately. But, this platform will help you to get an overview of all operations at a glance. The three vertical dots given on the top right corner of each operation tab will give you additional tools to manage each of these operations. If the database is working in a multi-company environment, then the overview will include the inventory operations of all companies configured in your system.</p>
+<h3 id="creating-new-operation-types">Creating new operation types<a class="headerlink" href="#creating-new-operation-types" title="Permanent link">&para;</a></h3>
+<p>In the Odoo 16 Inventory module, you can effortlessly create new operation types with the help of the dedicated tools introduced in the module. The <strong>Operation Types</strong> menu can be accessed from the <strong>Configuration</strong> menu as shown below.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-65.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-65.png" /></a></p>
+<p>Clicking on this option opens a new window with the details of the already configured operation types. You can make changes to the available operation types by selecting them from the given list. Here, we are going to create a new Operation Type. So, click on the <strong>Create</strong> button.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-66.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-66.png" /></a></p>
+<p>Here, you will get a new window to create a new operation type. You can mention the <strong>Operation Type</strong> in the corresponding field. Mention the Reference Sequence, Code, Barcode, Reservation Method, and Company in the respective fields. The Reservation Method will decide how the products in transfers of this operation type should be preserved. It can be either at confirmation, manually, or before the scheduled date. When validating a transfer, you can ask your users to choose if they want to create a backorder for the remaining products by selecting the option <strong>Ask</strong> in the <strong>Create Backorder</strong> field. By selecting the Always option, Odoo will automatically create a backorder for the remaining products. Selecting the <strong>Never</strong> option will cancel the remaining products. If you want to show a detailed stock operation in the picking lines then you can check the <strong>Show Detailed Operation</strong> box.</p>
+<p>The <strong>Default Source Location</strong> and <strong>Default Destination Location</strong> of the transfers of this operation type can be specified in the corresponding fields under the <strong>Locations</strong> tab.</p>
+<p>The <strong>Type of Operation</strong> can be Receipt, Delivery, Manufacturing, or Internal Transfer. Based on the Type of Operation you select, there will be small changes in the remaining fields. Each Type of Operation has different configuration options. For example, if you select Receipt as the Type of Operation the additional fields that appear on the screen are highlighted below.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-67.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-67.png" /></a><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-68.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-68.png" /></a></p>
+<p>Here, in the case of Receipt, you can activate the <strong>Show Reception Report at Validation</strong> feature if you want to get an automated reception report at the time of validation. In the <strong>Operation Type for Returns</strong> field, you can specify the operation type suitable for the return operations of the products. Odoo will automatically pre-fill the detailed operations with the corresponding products, location, and lot/serial numbers.</p>
+<p>By activating the Create New Lots/Serial Numbers option from the Traceability tab, Odoo will allow you to create new lots/serial numbers for the products in the transfers of this operation type. You can also use the existing lots/serial numbers for product transfers by activating the Use Existing Lots/Serial Numbers option. By checking the Move Entire Packages box from the Packages tab, you will be able to select entire packages to move.</p>
+<p>The Product traceability feature offered by Odoo will assist in tracing and tracking each and every component of a product. Tracking a product at each stage of stock movement is necessary to bring all operations under control. In order to ensure effective monitoring of the stock movement, lots and serial numbers play an important role. From manufacturing processes to delivery operations, product traceability will keep a proper track that improves the efficiency of stock management. Proper monitoring is required to reduce the risk factors during the stock movements of any company. The Odoo ERP system will record exact details of the stock movement of each component of a product in inventory in the form of a traceability report. The user can observe the whole production to distribution procedures in the inventory using the lots and serial numbers.</p>
+<p>Lots and serial numbers are not exactly the same. Commonly we use a lot as a unique identification number to identify a group of products of the same type. If the products are small or can not count as individual products, you can put them together in a single pack and allot a lot number. They are picked as batches in the inventory. For individual products, you can assign serial numbers. The serial number is considered to identify individual products in the inventory.</p>
+<p>We allocate lots and serial numbers for products at the time of their inventory management. You can assign lots and serial numbers to the products while configuring them in the Inventory module so that you can easily keep the traceability report of the respective products thereafter. The inventory management tools offered by Odoo 16 support this traceability feature to ensure effective tracking operations. In order to get the complete features of the traceability in the Inventory module, you are requested to activate the <strong>Lots &amp; Serial Numbers</strong> option from the <strong>Settings</strong> menu.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-45.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-45.png" /></a></p>
+<p>As shown in the image above, this feature will be available under the <strong>Traceability</strong> tab. After activating this feature, you will get the <strong>Lots/Serial Numbers</strong> option under the <strong>Products</strong> menu.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-46.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-46.png" /></a></p>
+<p>Here, already configured lots and serial numbers can be observed. It includes the Lot/Serial number, Internal Reference number in case it differs from the manufacturer’s lots/serial numbers, Product, Creation date, and Company. Assigning a new lost/serial number for a product can be easily done using the <strong>Create</strong> button.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-47.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-47.png" /></a></p>
+<p>First, you can mention a unique lot/serial number in the given space. In the respective fields, you can specify the Product, Quantity, Internal Reference, and Company. You can not change the serial number anymore if the product has already been moved. Additional notes related to this lot/serial number can be specified in the <strong>Description</strong> tab.</p>
+<p>The user will get some additional smart buttons on the window based on the operations done using this lot/serial number. As soon as you configure a new lot/serial number, you will get two smart buttons called Location and Traceability on the window as shown below.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-48.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-48.png" /></a></p>
+<p>By clicking on the <strong>Location</strong> button, you will get the exact location details of the product.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-49.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-49.png" /></a></p>
+<p>In the location history, you can find the Location, Product, Package, Lot/Serial Number, Owner, On Hand Quantity, Reserved Quantity, and Unit details. The <strong>History</strong> button available here will help you to get the movement history of the product. The product can be replenished from this window itself using the <strong>Replenishment</strong> button.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-50.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-50.png" /></a></p>
+<p>The Traceability smart button will give you the tracking information of the product.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-51.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-51.png" /></a></p>
+<p>Here, you will get the Reference, Product, Date, Lot/Serial, From, To, and Quantity details of each product movement.</p>
+<p>While configuring a new product in the Odoo Inventory module, you can define the traceability of the product. As shown in the image below, you will get the option to define the <strong>Traceability</strong> of the product under the <strong>Inventory</strong> tab.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-52.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-52.png" /></a></p>
+<p>You can set the tracking of the product by using <strong>Unique Serial Number</strong> or <strong>Lots</strong> from this window. If you don’t want to track the product, you can select the <strong>No Tracking</strong> option.</p>
+<p>You can assign lots/serial numbers to products while receiving them in the inventory. After confirming a purchase order, you will be able to manage lots and serial numbers for the products before receiving them. In order to understand this precisely, let’s create a new purchase order and confirm it.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-53.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-53.png" /></a></p>
+<p>The above-shown screenshot is a confirmed purchase order. Here, you will get a smart button to manage the <strong>Receipt</strong> of the purchase. Click this button.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-54.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-54.png" /></a></p>
+<p>Now, you can use the option highlighted in the image above from the Receipt window. As soon as you click on this button, a new wizard will appear to define the lots/serial number of the selected product.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-55.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-55.png" /></a></p>
+<p>Here, you can specify the Lot/Serial number and Destination Package in the corresponding fields using the <strong>Add a Line</strong> button. Click the <strong>Confirm</strong> button. Now, you can validate the receipt and receive the product in your inventory. This lot/serial number will be added to the product details window of this newly purchased product. You can check this using the smart button available on the product details window as highlighted in the image below.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-56.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-56.png" /></a></p>
+<p>You can observe the newly assigned lot/serial number here.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-57.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-57.png" /></a></p>
+<p>You can display lots and serial numbers on the delivery slips by activating the <strong>Display Lots &amp; Serial Numbers</strong> on Delivery Slips option from the <strong>Traceability</strong> tab of the <strong>Settings</strong> menu. Similarly, activating the <strong>Display Lots &amp; Serial Numbers on Invoices</strong> button will show lots and serial numbers on invoices.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-58.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-58.png" /></a></p>
+<p>Now, let’s check how to set expiration dates on lots and serial numbers.</p>
+<h3 id="expiration-date">Expiration Date<a class="headerlink" href="#expiration-date" title="Permanent link">&para;</a></h3>
+<p>Defining expiration dates for the storable or consumable products in your inventory is a crucial task. You should definitely mention the expiration date on each product so that the customer will get knowledge about the safety period to consume the product. Odoo manages the expiration dates of the products using the lots and serial numbers aspects. You can activate this feature from the <strong>Settings</strong> menu of the Inventory module.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-59.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-59.png" /></a></p>
+<p>Under the <strong>Traceability</strong> tab, you can find the <strong>Expiration Dates</strong> option to activate. Along with this, you can activate the <strong>Display Expiration Dates on Delivery Slips</strong> option to display the expiration dates on the delivery slips.</p>
+<p>After activating the expiration date feature, you can set expiration dates on lots or serial numbers of a product. For this, you can go to the product configuration window. Select the <strong>Inventory</strong> tab as shown below.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-60.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-60.png" /></a></p>
+<p>Here, you can define the tracking method from the <strong>Traceability</strong> field. After selecting the tracking method, you can activate the <strong>Expiration Date</strong> option.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-61.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-61.png" /></a></p>
+<p>When this option is activated, you will be able to specify the dates to manage product expiration on the product and on the corresponding lots/serial numbers. As soon as you activate this option, you will get some additional fields to define some important dates which are detailed below.</p>
+<p><strong>Expiration Date:</strong> The number of days after the receipt of the product after which the goods may become dangerous and must not be consumed. It will be computed on the lot/serial number.</p>
+<p><strong>Best Before Date:</strong> The number of days before the expiration date after which the goods start to deteriorate, without being dangerous yet.</p>
+<p><strong>Removal Date:</strong> The number of days before the expiration date after which the goods should be removed from the stock.</p>
+<p><strong>Alert Date:</strong> The number of days before the expiration date after which an alert should be raised on the lot/serial number.</p>
+<p>After specifying the expiration date for a product, you can check the lot and serial number window of the respective product where you will get the expiration details automatically.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-62.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-62.png" /></a></p>
+<p>The Dates tab will show the expiry details of the lot/serial number. You can observe an expiration alert on the serial number if it is expired or near to expiration date. The filter Expiration Alert will assist you to get the exact list of the expired lots and serial numbers.</p>
+<p><a href="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-63.png"><img alt="Odoo 16 inventory" src="https://www.images.cybrosys.com/images/odoo-book-16/odoo-book-16-inventory-63.png" /></a></p>
+<p>We detailed the feature of the product traceability in this section, now let’s discuss the inventory operations offered by Odoo 16.</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../01_warehouse_management/02_warehouses/03_rules_routes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Rules &amp; Routes" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Rules & Routes
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="02_product_variants/" class="md-footer__link md-footer__link--next" aria-label="Next: Transfers" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Transfers
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      This documentation is hosted by <a href="https://perfectwork.app/">PerfectWORK</a>
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.code.copy", "navigation.footer", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "navigation.path", "tabs"], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/atom.js"></script>
+      
+        <script src="../../../javascripts/misc.js"></script>
+      
+        <script src="../../../javascripts/accounts.js"></script>
+      
+        <script src="../../../javascripts/chart-of-accounts.js"></script>
+      
+        <script src="../../../javascripts/entries.js"></script>
+      
+        <script src="../../../javascripts/reconciliation.js"></script>
+      
+    
+  </body>
+</html>
