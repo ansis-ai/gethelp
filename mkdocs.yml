@@ -1,4 +1,4 @@
-site_name: PerfectWORK Documentation
+site_name: PerfectWORK
 site_url: https://willylohws.github.io/gethelp/
 repo_url: https://github.com/willylohws/gethelp
 repo_name: willylohws/gethelp
@@ -75,8 +75,8 @@ extra:
 
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/tailwind.css
+  # - stylesheets/extra.css
+  # - stylesheets/tailwind.css
   - stylesheets/accounting.css
 extra_javascript:
   # - https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js
@@ -132,7 +132,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - autorefs
   - monorepo
   - awesome-pages
@@ -142,6 +143,3 @@ plugins:
         reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
 copyright: This documentation is hosted by <a href="https://perfectwork.app/">PerfectWORK</a>
 site_author: PerfectWORK
-nav:
-  - index.md
-  - ...

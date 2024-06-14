@@ -4,6 +4,8 @@ hide:
   - navigation
   - toc
 ---
+<script src="https://cdn.tailwindcss.com"></script>
+
 <div class="container px-5 py-1 mx-auto flex flex-wrap">
   <h1 class="text-l text-gray-700 font-medium">Applications</h1>
 </div>
@@ -60,13 +62,13 @@ hide:
         <div class="font-regular text-l mb-2">Human Resources</div>
       </div>
     </a>
-    <a href="90_customer_services" class="rounded overflow-hidden shadow-lg">
+    <a href="85_customer_services" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/customer_services.jpg" alt="Forest">
       <div class="px-6 py-4">
         <div class="font-regular text-l mb-2">Customer Services</div>
       </div>
     </a>
-    <a href="100_retail_store" class="rounded overflow-hidden shadow-lg">
+    <a href="88_retail_store" class="rounded overflow-hidden shadow-lg">
       <img class="w-full" src="assets/retail_store.jpg" alt="Forest">
       <div class="px-6 py-4">
         <div class="font-regular text-l mb-2">Retail Store</div>

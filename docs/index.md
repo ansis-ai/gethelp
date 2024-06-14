@@ -5,9 +5,8 @@ hide:
   - navigation
   - toc
 ---
-
 <script src="https://cdn.tailwindcss.com"></script>
-             
+
 <div class="w-full">
     <div class="flex bg-white" style="height:350px;">
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
