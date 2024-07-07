@@ -1,6 +1,5 @@
 ---
-title: AI Solutions
-description: "This guide will help you to integrate Odoo with other systems."
+title: Developer CookBook
 hide:
   - navigation
   - toc
@@ -19,9 +18,4 @@ hide:
     <br>
     [OpenUpgrade Database](./)
 
--   <img class="w-full" src="assets/open_upgrade.jpg" alt="Upgrading Odoo Database" width="300">
-
-    <br>
-    [OpenUpgrade Database](./)
-    
 </div>

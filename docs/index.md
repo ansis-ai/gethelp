@@ -33,13 +33,13 @@ hide:
 
     [:octicons-arrow-right-24: AI](#)
 
--   :material-home-analytics:{ .lg .middle } __Business Analytics__
+-   :material-home-analytics:{ .lg .middle } __Integration Guide__
 
     ---
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Analytics](#)
+    [:octicons-arrow-right-24: Integration Guides](#)
 
 -   :material-github:{ .lg .middle } __Developer Guides__
 

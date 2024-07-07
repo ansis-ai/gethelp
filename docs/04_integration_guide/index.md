@@ -1,5 +1,5 @@
 ---
-title: AI Solutions
+title: Integration Guide
 description: "This guide will help you to integrate Odoo with other systems."
 hide:
   - navigation
