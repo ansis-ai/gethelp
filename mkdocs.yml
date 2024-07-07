@@ -34,7 +34,6 @@ theme:
     - search.suggest
     - navigation.path
     - tabs
-  name: material
   custom_dir: overrides
   palette:
     - scheme: default
@@ -135,9 +134,7 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - autorefs
-  - monorepo
   - awesome-pages
-  - macros
   - redirects:
       redirect_maps:
         reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
