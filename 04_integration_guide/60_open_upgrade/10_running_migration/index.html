@@ -10,26 +10,26 @@
         <meta name="author" content="PerfectWORK">
       
       
-        <link rel="canonical" href="https://willylohws.github.io/gethelp/04_developer_guide/">
+        <link rel="canonical" href="https://willylohws.github.io/gethelp/04_integration_guide/60_open_upgrade/10_running_migration/">
       
       
-        <link rel="prev" href="../03_AI_solution_guide/01_chatgpt/01_chatGPT_bot/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="01_pw_cli/">
+        <link rel="next" href="../90_after_migration/">
       
       
-      <link rel="icon" href="../assets/pw_logo.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+      <link rel="icon" href="../../../assets/pw_logo.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
   <title>PerfectWORK</title>
 
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/accounting.css">
+      <link rel="stylesheet" href="../../../stylesheets/output.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../../stylesheets/accounting.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -85,6 +87,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#get-the-code-from-openupgrade-and-dependencies" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -99,7 +106,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://perfectwork.app" title="PerfectWORK" class="md-header__button md-logo" aria-label="PerfectWORK" data-md-component="logo">
       
-  <img src="../assets/pw_logo.png" alt="logo">
+  <img src="../../../assets/pw_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Developer Guide
+              Running Migration
             
           </span>
         </div>
@@ -224,12 +231,12 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
   
-  Getting Started
+  Documentations
 
       </a>
     </li>
@@ -243,7 +250,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../01_application_guide/" class="md-tabs__link">
+        <a href="../../../01_application_guide/" class="md-tabs__link">
           
   
     
@@ -263,7 +270,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../02_solution_guide/" class="md-tabs__link">
+        <a href="../../../02_solution_guide/" class="md-tabs__link">
           
   
     
@@ -283,7 +290,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../03_AI_solution_guide/" class="md-tabs__link">
+        <a href="../../../03_AI_solution_guide/" class="md-tabs__link">
           
   
     
@@ -305,12 +312,32 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
           
   
     
   
   Integration Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../05_developer_cookbook/" class="md-tabs__link">
+          
+  
+    
+  
+  Developer Handbook
 
         </a>
       </li>
@@ -335,9 +362,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -350,7 +375,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://perfectwork.app" title="PerfectWORK" class="md-nav__button md-logo" aria-label="PerfectWORK" data-md-component="logo">
       
-  <img src="../assets/pw_logo.png" alt="logo">
+  <img src="../../../assets/pw_logo.png" alt="logo">
 
     </a>
     PerfectWORK
@@ -377,11 +402,11 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Getting Started
+    Documentations
   </span>
   
 
@@ -438,7 +463,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/" class="md-nav__link ">
+            <a href="../../../01_application_guide/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -500,7 +525,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/01_platform/" class="md-nav__link ">
+            <a href="../../../01_application_guide/01_platform/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -579,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/01_getting_started/01_overview/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/01_getting_started/01_overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -600,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/01_getting_started/02_navigation/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/01_getting_started/02_navigation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -621,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/01_getting_started/10_localization/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/01_getting_started/10_localization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -694,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/02_companies_users/01_companies/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/02_companies_users/01_companies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -715,7 +740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/02_companies_users/10_users/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/02_companies_users/10_users/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -788,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/03_connect/01_overview/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/03_connect/01_overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -809,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/03_connect/02_email_communication/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/03_connect/02_email_communication/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -886,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/10_apps_integration/03_modules/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/10_apps_integration/03_modules/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -907,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/10_apps_integration/05_authentication/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/10_apps_integration/05_authentication/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -928,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/10_apps_integration/06_google/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/10_apps_integration/06_google/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -949,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/01_platform/10_apps_integration/07_unsplash/" class="md-nav__link">
+      <a href="../../../01_application_guide/01_platform/10_apps_integration/07_unsplash/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1027,7 +1052,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1099,7 +1124,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/01_accounting_concept/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/01_accounting_concept/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1132,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/01_notes_accounting/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/01_notes_accounting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1153,7 +1178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/02_account_group/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/02_account_group/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1174,7 +1199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/03_journal/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/03_journal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1195,7 +1220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/04_continental_accounting/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/04_continental_accounting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1216,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/06_anglo_saxon_accounting/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/06_anglo_saxon_accounting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1237,7 +1262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/30_reconciliation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/30_reconciliation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1258,7 +1283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/40_accounting_methods/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/40_accounting_methods/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1279,7 +1304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/50_term_used/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/50_term_used/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1300,7 +1325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/01_accounting_concept/90_transactions_examples/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/01_accounting_concept/90_transactions_examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1382,7 +1407,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/10_bank_cash/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/10_bank_cash/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1415,7 +1440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/01_settings/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1436,7 +1461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/10_chart_of_accounts/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/10_chart_of_accounts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1457,7 +1482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/11_journal/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/11_journal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1478,7 +1503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/22_transactions/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/22_transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1499,7 +1524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/25_taxes/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/25_taxes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1520,7 +1545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/26_expenses/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/26_expenses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1541,7 +1566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/28_fiscal_position/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/28_fiscal_position/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1562,7 +1587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/30_bank_account/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/30_bank_account/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1583,7 +1608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/32_payment_acquirers/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/32_payment_acquirers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1604,7 +1629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/33_import_bank_statement/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/33_import_bank_statement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1625,7 +1650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/44_bank_reconciliation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/44_bank_reconciliation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1646,7 +1671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/55_reconciliation_model/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/55_reconciliation_model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1667,7 +1692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/77_bank_foreign_currency/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/77_bank_foreign_currency/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1688,7 +1713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/88_cash_register/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/88_cash_register/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1738,7 +1763,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1771,7 +1796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/01_sales_purchase/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/01_sales_purchase/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1792,7 +1817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/02_stock_movement/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/02_stock_movement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1813,7 +1838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/03_customer_payment/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/03_customer_payment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1834,7 +1859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/10_cancel_journal/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/01_journal_entries/10_cancel_journal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1890,7 +1915,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1923,7 +1948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/01_salt_edge/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/01_salt_edge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1944,7 +1969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/02_dbs/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/02_dbs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1965,7 +1990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/03_ocbc/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/10_bank_cash/05_bank_synchronization/03_ocbc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2031,7 +2056,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/20_accounts_receivable/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2064,7 +2089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/30_payment_terms/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/30_payment_terms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2085,7 +2110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/66_reconciliation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/66_reconciliation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2135,7 +2160,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2168,7 +2193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/01_invoicing_process/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/01_invoicing_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2189,7 +2214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/02_offer_cash_discount/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/02_offer_cash_discount/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2210,7 +2235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/03_cash_rounding/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/03_cash_rounding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2231,7 +2256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/04_credit_notes/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/01_customer_invoices/04_credit_notes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2306,7 +2331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/01_different_way_payment/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/01_different_way_payment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2327,7 +2352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/02_payment_process/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/02_payment_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2348,7 +2373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/03_followup_level/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/20_accounts_receivable/02_customer_payment/03_followup_level/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2412,7 +2437,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/30_account_payable/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/30_account_payable/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2445,7 +2470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/30_account_payable/02_vendor_bills/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/30_account_payable/02_vendor_bills/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2466,7 +2491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/30_account_payable/03_vendor_payment/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/30_account_payable/03_vendor_payment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2487,7 +2512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/30_account_payable/04_refunds/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/30_account_payable/04_refunds/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2543,7 +2568,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/50_inventory_valuation/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/50_inventory_valuation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2576,7 +2601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/50_inventory_valuation/01_configuration/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/50_inventory_valuation/01_configuration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2597,7 +2622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/50_inventory_valuation/02_automated_inventory_valuation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/50_inventory_valuation/02_automated_inventory_valuation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2618,7 +2643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/50_inventory_valuation/03_manual_inventory_valuation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/50_inventory_valuation/03_manual_inventory_valuation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2682,7 +2707,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/60_management/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/60_management/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2715,7 +2740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/03_budget_management/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/03_budget_management/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2736,7 +2761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/04_internalc_transfer/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/04_internalc_transfer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2757,7 +2782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/05_deferred_revenues/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/05_deferred_revenues/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2778,7 +2803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/06_deferred_expenses/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/06_deferred_expenses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2799,7 +2824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/09_tax_lock_dates/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/09_tax_lock_dates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2820,7 +2845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/10_closing_fiscal_period/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/10_closing_fiscal_period/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2864,7 +2889,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/60_management/01_asset_management/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/60_management/01_asset_management/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2897,7 +2922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/60_management/01_asset_management/02_asset_depreciation/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/60_management/01_asset_management/02_asset_depreciation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2963,7 +2988,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/70_taxes/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/70_taxes/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2996,7 +3021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/70_taxes/02_cash_basis_taxes/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/70_taxes/02_cash_basis_taxes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3017,7 +3042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/70_taxes/03_withholding_taxes/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/70_taxes/03_withholding_taxes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3038,7 +3063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/70_taxes/04_fiscal_position/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/70_taxes/04_fiscal_position/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3059,7 +3084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/20_accounting/70_taxes/05_b2b_b2c_pricing/" class="md-nav__link">
+      <a href="../../../01_application_guide/20_accounting/70_taxes/05_b2b_b2c_pricing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3109,7 +3134,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/80_reporting/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/80_reporting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3166,7 +3191,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/90_analytic_accounting/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/90_analytic_accounting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3223,7 +3248,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/20_accounting/98_fiscal_localization/" class="md-nav__link ">
+            <a href="../../../01_application_guide/20_accounting/98_fiscal_localization/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3292,7 +3317,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/30_sales_distribution/" class="md-nav__link ">
+            <a href="../../../01_application_guide/30_sales_distribution/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3346,7 +3371,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/30_sales_distribution/05_managing_products/" class="md-nav__link ">
+            <a href="../../../01_application_guide/30_sales_distribution/05_managing_products/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3403,7 +3428,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/30_sales_distribution/06_managing_pricing/" class="md-nav__link ">
+            <a href="../../../01_application_guide/30_sales_distribution/06_managing_pricing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3468,7 +3493,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/40_crm_marketing/" class="md-nav__link ">
+            <a href="../../../01_application_guide/40_crm_marketing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3527,7 +3552,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/50_website/" class="md-nav__link ">
+            <a href="../../../01_application_guide/50_website/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3587,7 +3612,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/50_website/01_getting_started/" class="md-nav__link ">
+            <a href="../../../01_application_guide/50_website/01_getting_started/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3620,7 +3645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/50_website/01_getting_started/01_publish/" class="md-nav__link">
+      <a href="../../../01_application_guide/50_website/01_getting_started/01_publish/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3641,7 +3666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/50_website/01_getting_started/02_multi_website/" class="md-nav__link">
+      <a href="../../../01_application_guide/50_website/01_getting_started/02_multi_website/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3662,7 +3687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/50_website/01_getting_started/03_optimize/" class="md-nav__link">
+      <a href="../../../01_application_guide/50_website/01_getting_started/03_optimize/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3724,7 +3749,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/60_inventory_manufacturing/" class="md-nav__link ">
+            <a href="../../../01_application_guide/60_inventory_manufacturing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3782,7 +3807,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/" class="md-nav__link ">
+            <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3844,7 +3869,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/" class="md-nav__link ">
+            <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3877,7 +3902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/02_product_variants/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/02_product_variants/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3898,7 +3923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/03_product_categories/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/03_product_categories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3919,7 +3944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/04_product_packaging/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/04_product_packaging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3940,7 +3965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/05_products_traceability/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/01_products/05_products_traceability/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3994,7 +4019,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/" class="md-nav__link ">
+            <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4027,7 +4052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/02_locations/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/02_locations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4048,7 +4073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/03_rules_routes/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/01_warehouse_management/02_warehouses/03_rules_routes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4108,7 +4133,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/60_inventory_manufacturing/02_inventory_operations/" class="md-nav__link ">
+            <a href="../../../01_application_guide/60_inventory_manufacturing/02_inventory_operations/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4141,7 +4166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_application_guide/60_inventory_manufacturing/02_inventory_operations/02_product_variants/" class="md-nav__link">
+      <a href="../../../01_application_guide/60_inventory_manufacturing/02_inventory_operations/02_product_variants/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4199,7 +4224,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/70_supply_chain/" class="md-nav__link ">
+            <a href="../../../01_application_guide/70_supply_chain/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4256,7 +4281,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/80_human_resources/" class="md-nav__link ">
+            <a href="../../../01_application_guide/80_human_resources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4313,7 +4338,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/85_customer_services/" class="md-nav__link ">
+            <a href="../../../01_application_guide/85_customer_services/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4374,7 +4399,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/88_retail_store/" class="md-nav__link ">
+            <a href="../../../01_application_guide/88_retail_store/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4428,7 +4453,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/88_retail_store/01_getting_started/" class="md-nav__link ">
+            <a href="../../../01_application_guide/88_retail_store/01_getting_started/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4485,7 +4510,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../01_application_guide/88_retail_store/02_shop_features/" class="md-nav__link ">
+            <a href="../../../01_application_guide/88_retail_store/02_shop_features/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4561,7 +4586,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../02_solution_guide/" class="md-nav__link ">
+            <a href="../../../02_solution_guide/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4615,7 +4640,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../02_solution_guide/01_clinic_management/" class="md-nav__link ">
+            <a href="../../../02_solution_guide/01_clinic_management/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4672,7 +4697,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../02_solution_guide/02_mentoring/" class="md-nav__link ">
+            <a href="../../../02_solution_guide/02_mentoring/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4738,7 +4763,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../03_AI_solution_guide/" class="md-nav__link ">
+            <a href="../../../03_AI_solution_guide/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4779,6 +4804,8 @@
       
         
       
+        
+      
     
     
       
@@ -4794,11 +4821,11 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../03_AI_solution_guide/01_chatgpt/" class="md-nav__link ">
+            <a href="../../../03_AI_solution_guide/60_open_upgrade/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    OpenAI ChatGPT
+    Upgrading Odoo
   </span>
   
 
@@ -4814,7 +4841,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            OpenAI ChatGPT
+            Upgrading Odoo
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -4827,11 +4854,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../03_AI_solution_guide/01_chatgpt/01_chatGPT_bot/" class="md-nav__link">
+      <a href="../../../03_AI_solution_guide/60_open_upgrade/10_running_migration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    ChatGPT BOT
+    Running Migration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_AI_solution_guide/60_open_upgrade/90_after_migration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    After Migration
   </span>
   
 
@@ -4869,10 +4917,6 @@
       
         
           
-        
-      
-        
-      
         
       
         
@@ -4895,7 +4939,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4906,7 +4950,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_5" id="__nav_5_label" tabindex="">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -4925,6 +4969,8 @@
                 
   
   
+    
+  
   
   
     
@@ -4944,20 +4990,20 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="01_pw_cli/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    PW CLI Tool
+    Upgrading Odoo
   </span>
   
 
@@ -4970,10 +5016,10 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            PW CLI Tool
+            Upgrading Odoo
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -4983,118 +5029,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="01_pw_cli/01_api/" class="md-nav__link">
-        
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
   
   <span class="md-ellipsis">
-    API
+    Running Migration
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="01_pw_cli/02_tutorial/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tutorial
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="60_open_upgrade/" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    Upgrading PerfectWORK
-  </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5_3">
-            <span class="md-nav__icon md-icon"></span>
-            Upgrading PerfectWORK
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="60_open_upgrade/10_running_migration/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -5103,6 +5059,132 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-the-code-from-openupgrade-and-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get the code from OpenUpgrade and dependencies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get the code from OpenUpgrade and dependencies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openupgrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenUpgrade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openupgradelib" class="md-nav__link">
+    <span class="md-ellipsis">
+      openupgradelib
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-coverage-of-the-migration-scripts-for-your-installed-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check coverage of the migration scripts for your installed modules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-a-copy-of-the-database-to-migrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a copy of the database to migrate
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjust-the-configuration-for-perfectwork-and-openupgrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjust the configuration for PerfectWORK and OpenUpgrade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adjust the configuration for PerfectWORK and OpenUpgrade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obsolete-options-in-the-odoo-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Obsolete options in the Odoo configuration file
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-upgrade-fix-data-and-repeat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run the upgrade, fix data and repeat…
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Run the upgrade, fix data and repeat…">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#write-the-missing-migration-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write the missing migration scripts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -5115,7 +5197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="60_open_upgrade/90_after_migration/" class="md-nav__link">
+      <a href="../90_after_migration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5137,6 +5219,69 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../05_developer_cookbook/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Developer Handbook
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Developer Handbook
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
               
                 
   
@@ -5150,6 +5295,10 @@
           
         
       
+        
+      
+        
+      
     
     
       
@@ -5160,30 +5309,77 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="90_external_api/" class="md-nav__link ">
+            <a href="../../../05_developer_cookbook/60_open_upgrade/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    External API
+    Upgrading Odoo
   </span>
   
 
             </a>
             
+              
+              <label class="md-nav__link " for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            External API
+            Upgrading Odoo
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_developer_cookbook/60_open_upgrade/10_running_migration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Running Migration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_developer_cookbook/60_open_upgrade/90_after_migration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    After Migration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
           </ul>
@@ -5209,9 +5405,7 @@
             
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -5220,6 +5414,122 @@
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-the-code-from-openupgrade-and-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Get the code from OpenUpgrade and dependencies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Get the code from OpenUpgrade and dependencies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openupgrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenUpgrade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openupgradelib" class="md-nav__link">
+    <span class="md-ellipsis">
+      openupgradelib
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-coverage-of-the-migration-scripts-for-your-installed-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check coverage of the migration scripts for your installed modules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-a-copy-of-the-database-to-migrate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a copy of the database to migrate
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjust-the-configuration-for-perfectwork-and-openupgrade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjust the configuration for PerfectWORK and OpenUpgrade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adjust the configuration for PerfectWORK and OpenUpgrade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#obsolete-options-in-the-odoo-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Obsolete options in the Odoo configuration file
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-the-upgrade-fix-data-and-repeat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run the upgrade, fix data and repeat…
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Run the upgrade, fix data and repeat…">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#write-the-missing-migration-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Write the missing migration scripts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -5237,30 +5547,57 @@
   
 
 
-  <h1>Developer Guide</h1>
+  <h1>Running Migration</h1>
 
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white overflow-hidden">
- <div class="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-5">
-    <a href="01_pw_cli"  class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/developer.jpg" alt="External API" >
-      <div class="px-6 py-4">
-        <div class="font-regular text-l mb-2">PW CLI</div>
-      </div>
-    </a>
-    <a href="60_open_upgrade"  class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/open_upgrade.jpg" alt="External API" >
-      <div class="px-6 py-4">
-        <div class="font-regular text-l mb-2">Upgrading PerfectWORK</div>
-      </div>
-    </a>
-    <a href="90_external_api"  class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/developer.jpg" alt="External API" >
-      <div class="px-6 py-4">
-        <div class="font-regular text-l mb-2">External API</div>
-      </div>
-    </a>
-</div>
+<p>Check out the code manually and upgrade your database by calling odoo-bin, (or openerp-server) directly. You will want to do this when you are working on developing migration scripts for uncovered modules.</p>
+<h2 id="get-the-code-from-openupgrade-and-dependencies"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#get-the-code-from-openupgrade-and-dependencies" title="Permalink to this heading">Get the code from OpenUpgrade and dependencies</a><a class="headerlink" href="#get-the-code-from-openupgrade-and-dependencies" title="Permanent link">&para;</a></h2>
+<h3 id="openupgrade"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#openupgrade" title="Permalink to this heading">OpenUpgrade</a><a class="headerlink" href="#openupgrade" title="Permanent link">&para;</a></h3>
+<p>Make the <em>openupgrade_framework</em> and the <em>openupgrade_scripts</em> modules available in the addons path in the PerfectWORK instance of the new version.
+<br/><br/></p>
+<h3 id="openupgradelib"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#openupgradelib" title="Permalink to this heading">openupgradelib</a><a class="headerlink" href="#openupgradelib" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>When installing the <em>openupgradelib</em> make sure you check out the latest version from github to get the latest updates and fixes:</p>
+<div class="language-bash highlight"><span class="filename">Install latest version of openupgradelib</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>git+https://github.com/OCA/openupgradelib.git@master#egg<span class="o">=</span>openupgradelib
+</span></code></pre></div>
+</li>
+</ul>
+<h2 id="check-coverage-of-the-migration-scripts-for-your-installed-modules"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#check-coverage-of-the-migration-scripts-for-your-installed-modules" title="Permalink to this heading">Check coverage of the migration scripts for your installed modules</a><a class="headerlink" href="#check-coverage-of-the-migration-scripts-for-your-installed-modules" title="Permanent link">&para;</a></h2>
+<p>Check if there are migration scripts provided for the set of modules that are installed in your Odoo database. If there are modules for which no migration scripts have been developed yet, your migration may fail or the integrity of your database may be lacking. 
+<br/><br/></p>
+<p>Check the module coverage in this documentation under <a href="https://oca.github.io/OpenUpgrade/status.html">Module coverage</a> and refer to the <a href="https://oca.github.io/OpenUpgrade/development.html">Migration script development</a> documentation to add the missing migration scripts.</p>
+<h2 id="make-a-copy-of-the-database-to-migrate"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#make-a-copy-of-the-database-to-migrate" title="Permalink to this heading">Make a copy of the database to migrate</a><a class="headerlink" href="#make-a-copy-of-the-database-to-migrate" title="Permanent link">&para;</a></h2>
+<p>Decide which database you are going to upgrade. You absolutely <em>must</em> make a backup of your live database before you start this process!</p>
+<h2 id="adjust-the-configuration-for-perfectwork-and-openupgrade"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#adjust-the-configuration-for-odoo-and-openupgrade" title="Permalink to this heading">Adjust the configuration for PerfectWORK and OpenUpgrade</a><a class="headerlink" href="#adjust-the-configuration-for-perfectwork-and-openupgrade" title="Permanent link">&para;</a></h2>
+<p>Edit the configuration files and command line parameters to point to the database you are going to upgrade. The recommended command line parameters are </p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>--upgrade-path<span class="o">=</span>&lt;path_to_openupgrade&gt;/openupgrade_scripts/scripts<span class="w"> </span>--update<span class="w"> </span>all<span class="w"> </span>--stop-after-init<span class="w"> </span>--load<span class="o">=</span>base,web,openupgrade_framework
+</span></code></pre></div>
+<h3 id="configuration-options"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#configuration-options" title="Permalink to this heading">Configuration options</a><a class="headerlink" href="#configuration-options" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>When migrating across several versions of Odoo, setting the target version as an environment variable allows OpenUpgrade to skip methods that are called in every version but really only need to run in the target version.</p>
+</li>
+<li>
+<p>Make the target version available to OpenUpgrade with:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>export OPENUPGRADE_TARGET_VERSION=16.0
+</span></code></pre></div>
+<p>(when migrating up to 16.0)</p>
+</li>
+</ul>
+<h3 id="obsolete-options-in-the-odoo-configuration-file"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#obsolete-options-in-the-odoo-configuration-file" title="Permalink to this heading">Obsolete options in the Odoo configuration file</a><a class="headerlink" href="#obsolete-options-in-the-odoo-configuration-file" title="Permanent link">&para;</a></h3>
+<p>Add these options to a separate stanza in the server configuration file under a header <em>[openupgrade]</em></p>
+<ul>
+<li>
+<p><em>autoinstall</em> - A dictionary with module name keys and lists of module names as values. If a key module is installed on your database, the modules from the value (and their dependencies) are selected for installation as well.</p>
+</li>
+<li>
+<p><em>force_deps</em> - A dictionary with module name keys and lists of module names as values. If a key module is installed on your database, the modules from the value will be treated as a module dependency. With this directive, you can manipulate the order in which the modules are migrated. If the modules from the value are not already installed on your database, they will be selected for installation (as will their dependencies). Be careful not to introduce a circular dependency using this directive.</p>
+</li>
+</ul>
+<h2 id="run-the-upgrade-fix-data-and-repeat"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#run-the-upgrade-fix-data-and-repeat" title="Permalink to this heading">Run the upgrade, fix data and repeat…</a><a class="headerlink" href="#run-the-upgrade-fix-data-and-repeat" title="Permanent link">&para;</a></h2>
+<p>Run the upgrade and check for errors. You will probably learn a lot about your data and have to do some manual clean up before and after the upgrade. Expect to repeat the process several times as you encounter errors, clean up your data, and try again. If necessary, ask for help or report bugs on Github.</p>
+<h3 id="write-the-missing-migration-scripts"><a href="https://oca.github.io/OpenUpgrade/migration_details.html#write-the-missing-migration-scripts" title="Permalink to this heading">Write the missing migration scripts</a><a class="headerlink" href="#write-the-missing-migration-scripts" title="Permanent link">&para;</a></h3>
+<p>At this stage, if some of your modules don’t have yet migration scripts, you might need to add them yourself. Read more about the development of migrations scripts in <a href="https://oca.github.io/OpenUpgrade/development.html">Migration script development</a></p>
 
 
 
@@ -5275,8 +5612,6 @@
 
   
 
-
-  
 
 
   <form class="md-feedback" name="feedback" hidden>
@@ -5310,12 +5645,10 @@
   
     
       
-        
-      
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../03_AI_solution_guide/01_chatgpt/01_chatGPT_bot/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ChatGPT BOT">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Upgrading PerfectWORK">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -5325,20 +5658,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                ChatGPT BOT
+                Upgrading PerfectWORK
               </div>
             </div>
           </a>
         
         
           
-          <a href="01_pw_cli/" class="md-footer__link md-footer__link--next" aria-label="Next: PW CLI">
+          <a href="../90_after_migration/" class="md-footer__link md-footer__link--next" aria-label="Next: After Migration">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                PW CLI
+                After Migration
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -5443,24 +5776,24 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.code.copy", "navigation.footer", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "navigation.path", "tabs"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.code.copy", "navigation.footer", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "navigation.path", "tabs"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
-        <script src="../javascripts/extra.js"></script>
+        <script src="../../../javascripts/extra.js"></script>
       
-        <script src="../javascripts/atom.js"></script>
+        <script src="../../../javascripts/atom.js"></script>
       
-        <script src="../javascripts/misc.js"></script>
+        <script src="../../../javascripts/misc.js"></script>
       
-        <script src="../javascripts/accounts.js"></script>
+        <script src="../../../javascripts/accounts.js"></script>
       
-        <script src="../javascripts/chart-of-accounts.js"></script>
+        <script src="../../../javascripts/chart-of-accounts.js"></script>
       
-        <script src="../javascripts/entries.js"></script>
+        <script src="../../../javascripts/entries.js"></script>
       
-        <script src="../javascripts/reconciliation.js"></script>
+        <script src="../../../javascripts/reconciliation.js"></script>
       
     
   </body>
