@@ -1,7 +1,6 @@
 nav:
     - index.md
-    - 01_application_guide
-    - 02_solution_guide
-    - 03_AI_solution_guide
-    - 04_integration_guide
-    - 05_developer_cookbook
+    - 10_application_guide
+    - 20_integration_guide
+    - 50_developer_cookbook
+    - Blog: blog

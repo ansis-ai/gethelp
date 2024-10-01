@@ -15,7 +15,7 @@ hide:
 
     Making better decision with Integrated Business Applications
 
-    [:octicons-arrow-right-24: Getting started](./01_application_guide/index.md)
+    [:octicons-arrow-right-24: Getting started](./10_application_guide/index.md)
 
 -   :material-robot-industrial:{ .lg .middle } __Industrial Solutions__
 
