@@ -1,5 +1,5 @@
 ---
-title: Integration Guide
+title: Infrastructure
 description: "This guide will help you to integrate Odoo with other systems."
 hide:
   - navigation

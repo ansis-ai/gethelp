@@ -1,8 +1,11 @@
 ---
 title: Overview
-summary: Getting Started with PerfectWORK
+summary: Getting Started with ANSIS Business Solution Platform 
 authors: Wilson Loh
 date: 2021-10-26
+
+hide:
+  - navigation
 ---
 
 

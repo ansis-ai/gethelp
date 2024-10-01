@@ -1,6 +1,6 @@
 nav:
     - index.md
-    - 10_application_guide
-    - 20_integration_guide
-    - 50_developer_cookbook
+    - 10_odoo
+    - 20_analytics
+    - 50_developer
     - Blog: blog

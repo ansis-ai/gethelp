@@ -5,7 +5,7 @@ repo_name: willylohws/gethelp
 edit_uri: blob/3.0/docs/
 
 # Copyright
-copyright: ANSIS 
+copyright: ANSIS Pte Ltd
 
 theme:
   name: material
