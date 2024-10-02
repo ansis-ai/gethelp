@@ -50,6 +50,8 @@ theme:
         name: Switch to light mode
 extra:
   homepage: https://ansis.com.sg
+  version:
+    provider: mike
   consent:
     title: Cookie consent
     description: >- 
