@@ -11,9 +11,6 @@ hide:
 </head>
 
 
-## 16.0 ( WIP )
-
-
 <div class="grid cards" markdown>
 -   :material-application:{ .lg .middle } __Business Applications__
 
@@ -33,7 +30,7 @@ hide:
 
     [:octicons-arrow-right-24: Analysis](#){ .md-button }
 
--   :material-robot:{ .lg .middle } __AI Implementation__
+-   :material-robot:{ .lg .middle } __IT Infrastructure__
 
     ---
 
