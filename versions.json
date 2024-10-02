@@ -3,14 +3,13 @@
     "version": "17.0",
     "title": "17.0",
     "aliases": [
+      "latest",
       "dev"
     ]
   },
   {
     "version": "16.0",
     "title": "16.0",
-    "aliases": [
-      "latest"
-    ]
+    "aliases": []
   }
 ]
