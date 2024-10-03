@@ -12,13 +12,13 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __Business Applications__
+-   :material-application:{ .lg .middle } __PerfectWORK Business Solution Platform__
 
     ---
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Getting started](./10_ANSIS/index.md){ .md-button }
+    [:octicons-arrow-right-24: Getting started](./10_perfectwork/index.md){ .md-button }
     
 
 
