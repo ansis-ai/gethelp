@@ -1,15 +1,23 @@
 ---
-title: PerfectWORK Applications
+title: Odoo Business Applications
 hide:
   - navigation
   - toc
 ---
 <script src="https://cdn.tailwindcss.com"></script>
 
+ANSIS Business Solution Platform is an adaptation of the Odoo community software. Benefiting from more than 15 years of development and use in thousands of companies, it is a robust and efficient management software. It was created to enable this software to be adapted to Singapore, Malaysia and ASEAN standards and to accelerate its development in Asia.
+
+<br />
+
+The [**Odoo framework**](https://odoo.com) on which Odoo Business Solution Platform is installed also allows the installation of other applications. You can thus develop your own customizations, host them on your server and evolve them in parallel with Odoo, without modifying its source code. This allows you to control maintenance costs, while leaving great flexibility to optimize your software platform.
+With its default multi-tenant architecture, Odoo Business Solution Platform  allows you to host multiple sites with independent databases, but which can use the same applications.
+
+<br />
 
 <div class="grid cards" markdown>
 
--   :material-application:{ .lg .middle } __PerfectWORK Platform__
+-   :material-application:{ .lg .middle } __Odoo Platform__
 
     ---
 
