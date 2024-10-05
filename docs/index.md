@@ -12,13 +12,17 @@ hide:
 
 
 <div class="grid cards" markdown>
+<<<<<<< HEAD
 -   :material-application:{ .lg .middle } __Application Guide__
+=======
+-   :material-application:{ .lg .middle } __Business Applications__
+>>>>>>> parent of da923f47 ([RFR] Change platform structure)
 
     ---
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Getting started](./10_perfectwork/index.md){ .md-button }
+    [:octicons-arrow-right-24: Getting started](./10_ANSIS/index.md){ .md-button }
     
 
 
