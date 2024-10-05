@@ -1,5 +1,5 @@
 ---
-title: Core Applications
+title: PerfectWORK Applications
 hide:
   - navigation
   - toc
@@ -9,7 +9,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-application:{ .lg .middle } __ANSIS Business Solution Platform__
+-   :material-application:{ .lg .middle } __PerfectWORK Platform__
 
     ---
 

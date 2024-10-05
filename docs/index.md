@@ -18,7 +18,7 @@ hide:
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Getting started](./10_ANSIS/index.md){ .md-button }
+    [:octicons-arrow-right-24: Learn More](./10_ANSIS/index.md){ .md-button }
     
 -   :material-application:{ .lg .middle } __Industrial Solutions__
 

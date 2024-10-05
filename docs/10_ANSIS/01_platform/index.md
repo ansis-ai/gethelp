@@ -1,17 +1,17 @@
 ---
-title: ANSIS Business Solution Platform
+title: PerfectWork Platform
 no_toc: true
 hide:
   - navigation
   - toc
 ---
 
-ANSIS Business Solution Platform is an adaptation of the Odoo community software. Benefiting from more than 15 years of development and use in thousands of companies, it is a robust and efficient management software. It was created to enable this software to be adapted to Singapore and Malaysia standards and to accelerate its development in Asia.
+PerfectWorkBusiness Solution Platform is an adaptation of the Odoo community software. Benefiting from more than 15 years of development and use in thousands of companies, it is a robust and efficient management software. It was created to enable this software to be adapted to Singapore and Malaysia standards and to accelerate its development in Asia.
 
 <br />
 
-The [**Odoo framework**](https://odoo.com) on which ANSIS Business Solution Platform is installed also allows the installation of other applications. You can thus develop your own customizations, host them on your server and evolve them in parallel with ANSIS, without modifying its source code. This allows you to control maintenance costs, while leaving great flexibility to optimize your software platform.
-With its default multi-tenant architecture, ANSIS Business Solution Platform  allows you to host multiple sites with independent databases, but which can use the same applications.
+The [**Odoo framework**](https://odoo.com) on which PerfectWorkBusiness Solution Platform is installed also allows the installation of other applications. You can thus develop your own customizations, host them on your server and evolve them in parallel with PERFECTWork, without modifying its source code. This allows you to control maintenance costs, while leaving great flexibility to optimize your software platform.
+With its default multi-tenant architecture, PerfectWorkBusiness Solution Platform  allows you to host multiple sites with independent databases, but which can use the same applications.
 
 <div class="grid cards" markdown>
 
