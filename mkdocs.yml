@@ -37,7 +37,7 @@ theme:
   custom_dir: overrides
   palette:
     - scheme: default
-      primary:  white
+      primary: white
       accent: red
       toggle:
         icon: material/brightness-7

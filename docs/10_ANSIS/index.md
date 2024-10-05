@@ -22,6 +22,7 @@ With its default multi-tenant architecture, Odoo Business Solution Platform  all
     ---
 
     A complete and open-source management platform. Benefit from tailor-made support for your business.
+    
 
     [:octicons-arrow-right-24: Explore ](./01_platform/index.md){ .md-button }
 
@@ -29,9 +30,10 @@ With its default multi-tenant architecture, Odoo Business Solution Platform  all
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    Odoo Invoicing is a standalone app for creating and sending invoices, while Odoo Accounting is a comprehensive accounting application.
 
-    [:octicons-arrow-right-24: Customization](#)
+    [:octicons-arrow-right-24: Explore ](./20_accounting/index.md){ .md-button }
+
 
 -   :material-phone-incoming-outline:{ .lg .middle } __Sales & Distribution__
 
