@@ -1,5 +1,5 @@
 ---
-title: PerfectWORK Business Solution Platform
+title: PerfectWORK
 no_toc: true
 hide:
   - navigation
