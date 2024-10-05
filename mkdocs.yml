@@ -144,5 +144,5 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
-copyright: This documentation is hosted by <a href="https://ansis.com.sg/">ANSIS Pte Ltd</a>
+copyright: This documentation is hosted by <a href="https://perfectwork.app/">PerfectWORK App</a>
 site_author: ANSIS
