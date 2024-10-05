@@ -49,7 +49,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra:
-  homepage: https://perfectwork.app
+  homepage: https://ansis.com.sg
   version:
     provider: mike
   consent:
@@ -144,5 +144,5 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
-copyright: This documentation is hosted by <a href="https://perfectwork.app/">ANSIS Pte Ltd</a>
+copyright: This documentation is hosted by <a href="https://ansis.com.sg/">ANSIS Pte Ltd</a>
 site_author: ANSIS
