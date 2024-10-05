@@ -1,5 +1,5 @@
 ---
-title: PerfectWORK
+title: Open Sources Business Solutions
 no_toc: true
 hide:
   - navigation
@@ -12,11 +12,15 @@ hide:
 
 
 <div class="grid cards" markdown>
-<<<<<<< HEAD
--   :material-application:{ .lg .middle } __Application Guide__
-=======
 -   :material-application:{ .lg .middle } __Business Applications__
->>>>>>> parent of da923f47 ([RFR] Change platform structure)
+
+    ---
+
+    A modular and versatile management solutions for your business
+
+    [:octicons-arrow-right-24: Getting started](./10_ANSIS/index.md){ .md-button }
+    
+-   :material-application:{ .lg .middle } __Industrial Solutions__
 
     ---
 
@@ -26,7 +30,7 @@ hide:
     
 
 
--   :material-robot-industrial:{ .lg .middle } __Functional Guide__
+-   :material-robot-industrial:{ .lg .middle } __Data Analytics__
 
     ---
 
@@ -34,7 +38,7 @@ hide:
 
     [:octicons-arrow-right-24: Analysis](#){ .md-button }
 
--   :material-robot:{ .lg .middle } __IT Infrastructure__
+-   :material-robot:{ .lg .middle } __Infrastructure__
 
     ---
 
@@ -42,7 +46,7 @@ hide:
 
     [:octicons-arrow-right-24: Explore](#){ .md-button }
 
--   :material-github:{ .lg .middle } __Developer Guides__
+-   :material-github:{ .lg .middle } __DevOps__
 
     ---
 
