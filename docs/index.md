@@ -1,5 +1,5 @@
 ---
-title: Open Source Business Solution
+title: PerfectWORK Business Solution Platform
 no_toc: true
 hide:
   - navigation
@@ -12,7 +12,7 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __PerfectWORK Business Solution Platform__
+-   :material-application:{ .lg .middle } __Application Guide__
 
     ---
 
@@ -22,7 +22,7 @@ hide:
     
 
 
--   :material-robot-industrial:{ .lg .middle } __Data Analytics__
+-   :material-robot-industrial:{ .lg .middle } __Functional Guide__
 
     ---
 
