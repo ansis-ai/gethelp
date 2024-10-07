@@ -47,17 +47,3 @@ A business may effectively manage manufacturing orders, bills of materials, and 
       [:octicons-arrow-right-24: Read More ](https://www.odoo.com/documentation/16.0/applications/inventory_and_mrp/manufacturing.html){.md-button}
 
 </div>
-
-## Webinar
-
-<div class="grid cards" markdown>
-
-  -   :material-application:{ .lg .middle } __Manufacturing from Cybrosys (V17)__
-
-      ---
-
-      A business may effectively manage manufacturing orders, bills of materials, work centers, and track all manufacturing operations at every level with the use of the Odoo 17 ERP system.
-
-      [:octicons-arrow-right-24: Watch This ](https://www.youtube.com/watch?v=uZS-tDkzsQQ){.md-button}
-
-</div>
