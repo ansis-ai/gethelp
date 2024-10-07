@@ -1,5 +1,5 @@
 ---
-title: Open Sources Business Solutions
+title:  Your Business, Our Expertise
 no_toc: true
 hide:
   - navigation
@@ -12,7 +12,7 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __Business Applications__
+-   :material-application:{ .lg .middle } __Odoo Business Applications__
 
     ---
 
