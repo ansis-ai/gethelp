@@ -23,14 +23,6 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Odoo is a comprehensive business management software that offering both community and enterprise editions with varying capabilities.
 
-
-
-
-
-
-
-
-
     [:octicons-arrow-right-24: Explore ](./01_platform/index.md){ .md-button }
 
 -   :fontawesome-solid-file-invoice-dollar:{ .lg .middle } __Accounting & Finance__
@@ -48,7 +40,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: AI](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 -   :material-home-analytics:{ .lg .middle } __CRM & Marketing__
 
@@ -56,7 +48,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Integration Guides](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 -   :material-web:{ .lg .middle } __Website & eCommerce__
 
@@ -64,15 +56,15 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 -   :material-factory:{ .lg .middle } __Manufacturing__
 
     ---
+    
+    Odoo efficiently manages manufacturing orders, bills of materials, work centers, and tracks all manufacturing operations at every level.
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](./60_inventory_manufacturing/index.md){ .md-button }
 
 -   :material-truck:{ .lg .middle } __Supply Chain & Logistics__
 
@@ -80,7 +72,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 -   :material-human-male-female:{ .lg .middle } __Human Resources__
 
@@ -88,7 +80,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
  
 -   :simple-airplayvideo:{ .lg .middle } __Customer Services__
@@ -97,7 +89,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 
 -   :material-point-of-sale:{ .lg .middle } __Retail Operations__
@@ -106,7 +98,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 -   :material-office-building-cog:{ .lg .middle } __Office Operations__
 
@@ -114,7 +106,7 @@ With its default multi-tenant architecture, Odoo software allows you to host mul
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Start Developing](#)
+    [:octicons-arrow-right-24: Explore](#){ .md-button }
 
 
 </div>
