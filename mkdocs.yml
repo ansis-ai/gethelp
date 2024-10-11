@@ -1,4 +1,4 @@
-site_name: Business Solutions Platform
+site_name: PerfectWork Business Solutions Platform
 site_url: https://willylohws.github.io/gethelp/
 repo_url: https://github.com/ansis-ai/gethelp.git
 repo_name: willylohws/gethelp
@@ -9,7 +9,7 @@ copyright: ANSIS Pte Ltd
 
 theme:
   name: material
-  logo: assets/ANSIS_logo.png
+  logo: assets/PW_logo.jpeg
   favicon: assets/ANSIS_logo_small.png
   font:
     text: Roboto
@@ -49,7 +49,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 extra:
-  homepage: https://ansis.com.sg
+  homepage: https://perfectwork.app
   version:
     provider: mike
   consent:
