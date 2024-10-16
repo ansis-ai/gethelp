@@ -9,7 +9,7 @@ tag: 3.0
 
 ## Server Action
 
-In ANSIS we can execute server actions, an intriguing feature using which the customers can meet their requirements. Let's discuss the functionality and how to use various parameters in server actions accordingly.
+In SYNER-CATALYST we can execute server actions, an intriguing feature using which the customers can meet their requirements. Let's discuss the functionality and how to use various parameters in server actions accordingly.
 
 <br />
 

@@ -7,13 +7,13 @@ hide:
 ---
 
 <div class="p-7">
-Sales module in ANSIS is used to ensure advanced sales management operations of a company. In order to run your sales processes efficiently, you can completely rely on the ANSIS Sales management application. You can streamline your workflow by systematically coordinating the quotation creation, customer management, sales team organization, sales order confirmation, invoice generation, and many more sales operations within an organization. 
+Sales module in SYNER-CATALYST is used to ensure advanced sales management operations of a company. In order to run your sales processes efficiently, you can completely rely on the SYNER-CATALYST Sales management application. You can streamline your workflow by systematically coordinating the quotation creation, customer management, sales team organization, sales order confirmation, invoice generation, and many more sales operations within an organization. 
 <br /><br />
 
-Managing and monitoring all these activities manually will be tiring. With the high integration features available in the ANSIS, you can make use of the advanced tools and attributes of an ERP system to perform all essential sales tasks seamlessly.
+Managing and monitoring all these activities manually will be tiring. With the high integration features available in the SYNER-CATALYST, you can make use of the advanced tools and attributes of an ERP system to perform all essential sales tasks seamlessly.
 <br /><br />
 
-ANSIS is developing day by day to assure its best performance for users. ANSIS offers you the fastest processing time without compromising on high execution. You can find new changes in the Sales module also which are helpful to elevate the overall sales management. 
+SYNER-CATALYST is developing day by day to assure its best performance for users. SYNER-CATALYST offers you the fastest processing time without compromising on high execution. You can find new changes in the Sales module also which are helpful to elevate the overall sales management. 
 </div>
 
 <section>

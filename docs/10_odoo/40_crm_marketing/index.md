@@ -6,16 +6,16 @@ hide:
   - toc
 ---
 <div class="p-7">
-ANSIS ERP system offers Customer Relationship Management software for the effective management of customers and the establishment of new business relationships. The CRM module permits you to monitor and operate all new leads and opportunities in one place. Having an adequate platform for the administration of leads, opportunities, and related operations will benefit a company in many ways. 
+SYNER-CATALYST ERP system offers Customer Relationship Management software for the effective management of customers and the establishment of new business relationships. The CRM module permits you to monitor and operate all new leads and opportunities in one place. Having an adequate platform for the administration of leads, opportunities, and related operations will benefit a company in many ways. 
 <br /><br />
 
-The business world around us is growing rapidly, and in order to cope with this growth, you must be ahead with customer management. Every year, ANSIS introduces its new version with a wide variety of new features that help a company improve its performance at multiple levels. ANSIS 6.0, the latest version of the ANSIS ERP system includes advanced tools to enhance the working efficiency of the CRM module.
+The business world around us is growing rapidly, and in order to cope with this growth, you must be ahead with customer management. Every year, SYNER-CATALYST introduces its new version with a wide variety of new features that help a company improve its performance at multiple levels. SYNER-CATALYST 6.0, the latest version of the SYNER-CATALYST ERP system includes advanced tools to enhance the working efficiency of the CRM module.
 <br /><br />
 
 The salesperson will get easy access to the sales pipeline which encompasses all information in one place. The well-visualized information available in the sales pipeline can be utilized to monitor CRM operations effectively. Data available in this pipeline will be segmented based on the progress in operations. 
 <br /><br />
 
-Suitable stages can be assigned for leads and opportunities according to the progression. Improved visualization is one of the attractive features of the latest version of ANSIS CRM. Additional new features will be discussed while detailing the functionalities of the CRM module.
+Suitable stages can be assigned for leads and opportunities according to the progression. Improved visualization is one of the attractive features of the latest version of SYNER-CATALYST CRM. Additional new features will be discussed while detailing the functionalities of the CRM module.
 
 </div>
 

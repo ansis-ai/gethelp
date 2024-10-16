@@ -48,7 +48,7 @@ to access an order’s invoice, open the order form by selecting the order, then
     - You can filter the list of orders to invoiced orders by clicking Filters and Invoiced.
 
 #### QR codes to generate invoices
-Customers can also request an invoice by scanning the QR code printed on their receipt. Upon scanning, they must fill in a form with their billing information and click Get my invoice. On the one hand, doing so generates an invoice available for download. On the other hand, the order status goes from Paid or Posted to Invoiced in the ANSIS backend.
+Customers can also request an invoice by scanning the QR code printed on their receipt. Upon scanning, they must fill in a form with their billing information and click Get my invoice. On the one hand, doing so generates an invoice available for download. On the other hand, the order status goes from Paid or Posted to Invoiced in the SYNER-CATALYST backend.
 
 <br />
 ![](2023-04-05-18-52-40.png){: .center}

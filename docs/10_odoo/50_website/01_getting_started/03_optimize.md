@@ -8,7 +8,7 @@ date: 2023-02-20
 # Manage Multi Websites
 
 
-ANSIS’s Multi-Websites opens up broad possibilities of diversification and customer segmentation for your business. A multiplied audience and
+SYNER-CATALYST’s Multi-Websites opens up broad possibilities of diversification and customer segmentation for your business. A multiplied audience and
 boosted revenue are now just a few clicks away!
 
 Each website can work in a fully independent way, with its theme, branding, domain name, header & footer, pages, languages, products, blog, posts, forum, slides, events, live chat channels, etc. Let’s go for a tour!
@@ -19,7 +19,7 @@ To create a new website, go to :menuselection:`Website --> Configuration --> Set
 
 <br />
 
-In the upcoming prompt, set a name for your new website and a specific domain name. Leave empty to publish the new website under the default domain of your ANSIS database. You can later set some country groups to redirect visitors to it using Geo IP.
+In the upcoming prompt, set a name for your new website and a specific domain name. Leave empty to publish the new website under the default domain of your SYNER-CATALYST database. You can later set some country groups to redirect visitors to it using Geo IP.
 
 <br />
 Then, select a theme. This new website might have an entirely different purpose or audience than the first one. So feel free to go for a different theme!
@@ -28,7 +28,7 @@ Once the theme is selected, you can start to build the homepage of your website.
 <br />
 
 !!! note
-    If you run ANSIS Online, don’t forget to redirect any new domain name to your ANSIS database (``CNAME``) and to authorize it ANSIS-side. See :ref:`domain-name/existing`.
+    If you run SYNER-CATALYST Online, don’t forget to redirect any new domain name to your SYNER-CATALYST database (``CNAME``) and to authorize it SYNER-CATALYST-side. See :ref:`domain-name/existing`.
 
 
 ## Create the menu
@@ -73,13 +73,13 @@ As said earlier, your websites can either share the same domain name or use a sp
 region, set country groups in the setting of each website. Visitors will be redirected to the right website using GeoIP.
 
 !!! note
-    Geo IP is installed by default in ANSIS Online. If you run ANSIS on-premise, don’t forget to install *GeoIP* library. 
+    Geo IP is installed by default in SYNER-CATALYST Online. If you run SYNER-CATALYST on-premise, don’t forget to install *GeoIP* library. 
     See :doc:`on-premise_geo-ip-installation`
 
 
 If you setup an extra website and specify the domain name you will have to do three things to get this feature to work:
 
-- Setup an A-record in the DNS configuration of your hosting provider so that "www.mywebsite2.ext" is redirected to the IP of your ANSIS instance.
+- Setup an A-record in the DNS configuration of your hosting provider so that "www.mywebsite2.ext" is redirected to the IP of your SYNER-CATALYST instance.
 - Create an extra Nginx ``server`` block in which you set the ``server_name`` that you've set in the :guilabel:`Website domain` field.
 - Reload and restart your Nginx instance to use the new ``server`` block.
 
@@ -131,7 +131,7 @@ Each website can be linked to a specific company of your system, in a multi-comp
 <br />
 With such a configuration, only company-related data appear on the website (products, jobs, events, etc.).
 <br />
-Website editors can only view and edit the pages of the records they have access to, typically the ones belonging to their current company (and to their subsidiaries, or child companies in ANSIS language). And so is it for visitors.
+Website editors can only view and edit the pages of the records they have access to, typically the ones belonging to their current company (and to their subsidiaries, or child companies in SYNER-CATALYST language). And so is it for visitors.
 
 !!! note
     If websites are multi-companies, you don’t change company when switching websites. To change the company and see the related content, use the company selector in the menu.

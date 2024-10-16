@@ -12,7 +12,7 @@ Check out the code manually and upgrade your database by calling odoo-bin, (or o
 
 ### [OpenUpgrade](https://oca.github.io/OpenUpgrade/migration_details.html#openupgrade "Permalink to this heading")
 
-Make the _openupgrade_framework_ and the _openupgrade_scripts_ modules available in the addons path in the ANSIS instance of the new version.
+Make the _openupgrade_framework_ and the _openupgrade_scripts_ modules available in the addons path in the SYNER-CATALYST instance of the new version.
 <br/><br/>
 
 ### [openupgradelib](https://oca.github.io/OpenUpgrade/migration_details.html#openupgradelib "Permalink to this heading")
@@ -35,7 +35,7 @@ Check the module coverage in this documentation under [Module coverage](https://
 
 Decide which database you are going to upgrade. You absolutely _must_ make a backup of your live database before you start this process!
 
-## [Adjust the configuration for ANSIS and OpenUpgrade](https://oca.github.io/OpenUpgrade/migration_details.html#adjust-the-configuration-for-odoo-and-openupgrade "Permalink to this heading")
+## [Adjust the configuration for SYNER-CATALYST and OpenUpgrade](https://oca.github.io/OpenUpgrade/migration_details.html#adjust-the-configuration-for-odoo-and-openupgrade "Permalink to this heading")
 
 Edit the configuration files and command line parameters to point to the database you are going to upgrade. The recommended command line parameters are 
 

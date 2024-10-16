@@ -9,7 +9,7 @@ hide:
 <div class="p-7">
 Inventory management is one of the crucial aspects of business operations that needs to be monitored with utmost attention and accuracy. Even a simple error in the movement of inventory has the potential to harm your business and that’s why entrepreneurs always prioritize effective inventory management. 
 <br/><br/>
-As the company expands, the need for a dedicated inventory management system also grows. Here comes the ANSIS Inventory management system for your help with advanced strategic plans that optimizes the operations of organizing, monitoring, and managing inventory in real-time. ANSIS ensures accurate inventory tracking that helps your business to handle orders as early as possible.
+As the company expands, the need for a dedicated inventory management system also grows. Here comes the SYNER-CATALYST Inventory management system for your help with advanced strategic plans that optimizes the operations of organizing, monitoring, and managing inventory in real-time. SYNER-CATALYST ensures accurate inventory tracking that helps your business to handle orders as early as possible.
 </div>
 
 

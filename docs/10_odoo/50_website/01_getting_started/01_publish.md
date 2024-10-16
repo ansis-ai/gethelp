@@ -1,6 +1,6 @@
 ---
 title: Publish Website
-summary: Getting Started with ANSIS
+summary: Getting Started with SYNER-CATALYST
 authors: Wilson Loh
 date: 2023-02-20
 ---
@@ -10,7 +10,7 @@ date: 2023-02-20
 
 ## Overview
 
-In addition to creating great modern websites, ANSIS gives you the possibility to translate it in different languages.
+In addition to creating great modern websites, SYNER-CATALYST gives you the possibility to translate it in different languages.
 
 ## Process
 

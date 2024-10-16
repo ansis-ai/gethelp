@@ -13,18 +13,18 @@ This OCA project aims to provide an Open Source upgrade path for Odoo from one m
 
 <br />
 
-As ANSIS is based on Odoo framework, table below shows the matching of Odoo version of ANSIS releases.
+As SYNER-CATALYST is based on Odoo framework, table below shows the matching of Odoo version of SYNER-CATALYST releases.
 
-!!! note "ANSIS and Odoo version"
+!!! note "SYNER-CATALYST and Odoo version"
 
-    | **ANSIS** | **Odoo Community** |
-    | :-------: | :----------------: |
-    |  **2.0**  |        11.0        |
-    |    2.5    |        12.0        |
-    |  **3.0**  |        13.0        |
-    |    3.3    |        14.0        |
-    |    3.6    |        15.0        |
-    | _**4.0**_ |        16.0        |
+    | **SYNER-CATALYST** | **Odoo Community** |
+    | :----------------: | :----------------: |
+    |      **2.0**       |        11.0        |
+    |        2.5         |        12.0        |
+    |      **3.0**       |        13.0        |
+    |        3.3         |        14.0        |
+    |        3.6         |        15.0        |
+    |     _**4.0**_      |        16.0        |
 
 ### Introduction
 
@@ -49,7 +49,7 @@ Check out the code manually and upgrade your database by calling odoo-bin, (or o
 
 ##### OpenUpgrade
 
-!!! info "ANSIS 3.3"
+!!! info "SYNER-CATALYST 3.3"
     Make the _**openupgrade_framework**_ and the _**openupgrade_scripts**_ modules available in the addons path in the Odoo instance of the new version.
 
 Or, for older versions: check out the OpenUpgrade source code from Github for the branches you need. Each branch migrates to its version from the previous version, so branch 13.0 migrates from 12.0 to 13.0. If you are migrating across multiple versions, you need to run each version of OpenUpgrade in order. _Skipping versions is not supported_.

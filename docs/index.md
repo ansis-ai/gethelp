@@ -26,17 +26,8 @@ hide:
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Getting started](./10_odoo/index.md){ .md-button }
+    [:octicons-arrow-right-24: Getting started](./20_solutions/index.md){ .md-button }
     
-
-
--   :material-robot-industrial:{ .lg .middle } __Data Analytics__
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Analysis](#){ .md-button }
 
 -   :material-robot:{ .lg .middle } __Infrastructure__
 
@@ -44,14 +35,14 @@ hide:
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Explore](#){ .md-button }
+    [:octicons-arrow-right-24: Explore](./30_infrastructure/index.md){ .md-button }
 
--   :material-github:{ .lg .middle } __DevOps__
+-   :material-github:{ .lg .middle } __Developer__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Documentation for Developer [GitHub]
 
-    [:octicons-arrow-right-24: Development](#){ .md-button }
+    [:octicons-arrow-right-24: Development](./50_developer/index.md){ .md-button }
 
 </div>
