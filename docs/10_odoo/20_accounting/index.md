@@ -33,5 +33,12 @@ Our documentation will help you understand how to manage your books, what the ac
     
     [:octicons-arrow-right-24: Payment ](./2030_payment/index.md){.md-button}
 
+-   :material-table-search:{ .lg .middle } __Year End Closing__
+
+    ---
+
+    Year-end closing is vital for maintaining financial accuracy, complying with regulations and ensuring transparency in reporting.
+    
+    [:octicons-arrow-right-24: Year End ](./2900_year_end_closing/index.md){.md-button}
 
 </div>
