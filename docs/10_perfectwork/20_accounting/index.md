@@ -16,14 +16,6 @@ Our documentation will help you understand how to manage your books, what the ac
 
 <div class="grid cards" markdown>
 
--   :material-application:{ .lg .middle } __Documentation @ Odoo__
-
-    ---
-
-    Odoo Invoicing is a standalone app for creating and sending invoices, while Odoo Accounting is a comprehensive accounting application.
-
-    [:octicons-arrow-right-24: Getting Started ](https://www.odoo.com/documentation/16.0/applications/finance/accounting.html){.md-button}
-
 
 -   :material-table-search:{ .lg .middle } __Payment__
 

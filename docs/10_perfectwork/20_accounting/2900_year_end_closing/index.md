@@ -1,9 +1,9 @@
 ---
 title: Year End Closing
 no_toc: true
-hide:
-  # - navigation
-  # - toc
+# hide:
+#   - navigation
+#   - toc
 ---
 ## Fiscal years
 
