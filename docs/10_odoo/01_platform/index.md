@@ -8,7 +8,7 @@ hide:
 
 ## Transform Your Business with PerfectWork
 
-PerfectWork is Odoo enriched and ready to use for your organization. Discover the power of seamless operations with our Odoo-based ERP solution. PerfectWork offers a comprehensive management system that covers everything from lead generation to accounting, ensuring that every aspect of your business is smoothly integrated and efficiently managed.
+PerfectWork Business Solution is Odoo enriched platform and ready to use for your organization. Discover the power of seamless operations with our Odoo-based ERP solution. PerfectWork offers a comprehensive management system that covers everything from lead generation to accounting, ensuring that every aspect of your business is smoothly integrated and efficiently managed.
 
 <br/>
 Our enhanced Odoo functionality is tailored to meet your organization's unique needs, providing you with a customized solution that fits your business like a glove. By streamlining all your business processes, PerfectWork enables smooth integration across departments, eliminating silos and boosting productivity.

@@ -1,16 +1,16 @@
-site_name: PerfectWork Business Solutions Platform
+site_name: PerfectWork Business Solutions
 site_url: https://willylohws.github.io/gethelp/
-repo_url: https://github.com/SYNER-CATALYST-ai/gethelp.git
+repo_url: https://github.com/SYNER-CATALYST/gethelp.git
 repo_name: willylohws/gethelp
 edit_uri: blob/3.0/docs/
 
 # Copyright
-copyright: SYNER-CATALYST Pte Ltd
+copyright: PerfectWork
 
 theme:
   name: material
   logo: assets/PW_logo.jpeg
-  favicon: assets/SYNER-CATALYST_logo_small.png
+  favicon: assets/PW_logo.jpeg
   font:
     text: Roboto
   navigation_depth: 5
@@ -144,5 +144,5 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - tags
-copyright: This documentation is hosted by <a href="https://SYNER-CATALYST.com.sg/">SYNER-CATALYST Pte Ltd</a>
-site_author: SYNER-CATALYST
+copyright: This documentation is hosted by <a href="https://perfectwork.app/">PerfectWork</a>
+site_author: PerfectWork

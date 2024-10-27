@@ -1,5 +1,5 @@
 ---
-title:  Your Business, Our Expertise
+title:  Perfecting Business Decision
 no_toc: true
 hide:
   - navigation
