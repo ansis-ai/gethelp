@@ -1,11 +1,12 @@
 ---
-title: Odoo Platform
-summary: Getting Started with Odoo Business Solution Platform 
+title: Odoo Core Platform
+summary: Getting Started with PerfectWork Business Solution Platform 
 authors: Wilson Loh
 date: 2021-10-26
 
-# hide:
-#   - navigation
+hide:
+  - navigation
+  - toc
 ---
 
 

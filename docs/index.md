@@ -12,13 +12,13 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __Odoo Business Applications__
+-   :material-application:{ .lg .middle } __PerfectWork Business Applications__
 
     ---
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Learn More](./10_odoo/index.md){ .md-button }
+    [:octicons-arrow-right-24: Learn More](./10_perfectwork/index.md){ .md-button }
     
 -   :material-application:{ .lg .middle } __Industrial Solutions__
 

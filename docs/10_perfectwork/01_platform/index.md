@@ -21,14 +21,6 @@ Ready to perfect your workflow? Choose PerfectWork Business Solution – where e
 
 <div class="grid cards" markdown>
 
--   :material-application:{ .lg .middle } __Documentation @ Odoo__
-
-    ---
-
-    Odoo provides comprehensive documentation, but some features are exclusive to the Enterprise version.
-
-    [:octicons-arrow-right-24: Getting Started ](https://www.odoo.com/documentation/16.0/applications/essentials/activities.html#){.md-button}
-
 
 -   :material-application:{ .lg .middle } __Setup your Database__
 
@@ -39,14 +31,32 @@ Ready to perfect your workflow? Choose PerfectWork Business Solution – where e
     [:octicons-arrow-right-24: Getting Started ](#){.md-button}
 
 
+-   :material-application:{ .lg .middle } __Applications and Modules__
+
+    ---
+
+    PerfectWork apps are self-contained packages that offer specific functionalities like CRM, Inventory, Accounting or others.
+
+    [:octicons-arrow-right-24: Installing Apps ](./10_apps_and_modules.md){.md-button}
+
 
 -   :material-application:{ .lg .middle } __Customized Theme__
 
     ---
 
-    Odoo provides comprehensive documentation, but some features are exclusive to the Enterprise version.
+    PerfectWork ERP is the integrated management solution designed for businesses, for today and for tomorrow.
 
     [:octicons-arrow-right-24: Getting Started ](#){.md-button}
+
+
+-   :material-application:{ .lg .middle } __Documentation @ Odoo__
+
+    ---
+
+    Odoo provides comprehensive documentation, but some features are exclusive to the Enterprise version.
+
+    [:octicons-arrow-right-24: Getting Started ](https://www.odoo.com/documentation/16.0/applications/essentials/activities.html#){.md-button}
+
 
 
 </div>
