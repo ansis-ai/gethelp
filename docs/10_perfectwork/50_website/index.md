@@ -6,39 +6,42 @@ hide:
   - toc
 ---
 
-<section>
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white overflow-hidden">
- <div class="p-7 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 gap-5">
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/ecommerce.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Getting Started</div>
-      </div>
-    </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/website_design.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Website Builder</div>
-      </div>
-    </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/e_commerce.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >eCommerce</div>
-      </div>
-    </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/e_learning.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >eLearning</div>
-      </div>
-    </a>
-    <a href="01_getting_started" class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="assets/live_chat.jpg" alt="Platform">
-      <div class="px-6 py-2">
-        <div class="font-regular text-l mb-2" >Live Chat</div>
-      </div>
-    </a>
+
+<div>
+PerfectWORK, a comprehensive suite of business tools, offers an advanced website builder with a distinct interface and foundation. This multifunctional, open-source module provides insights into managing online stores and websites. Real-time integration links the platform to other modules, making it easy to manage tasks and necessities. Its multipurpose characteristics make it suitable for various purposes, including website building, eCommerce sites, customer portals, job portals, and HR recruitment portals.
+
+
+<br/><br/>
+Businesses can easily develop and modify websites using PerfectWORK. The platform is designed to build, administer, and design websites according to company needs and standards. It offers usability from both the front and back ends, with modifications instantly recognized by each other.
+
+
+<br/><br/>
+Online and eCommerce platforms have become popular for conducting business and shopping. PerfectWORK’s eCommerce module enables businesses to handle online sales processes more effectively compared to traditional business operations. When seeking a reliable website and eCommerce system, businesspeople strongly recommend PerfectWORK. This chapter will delve into every aspect of the Odoo 17 eCommerce module and website.
+
+<br/><br/>
+
 </div>
-</section>
+
+
+<div class="grid cards" markdown>
+
+
+-   :material-power-settings:{ .lg .middle } __Settings__
+
+    ---
+
+    Explore the choices in the PerfectWORK Website module’s Settings pane. Each option is explained in a separate section. 
+    
+    [:octicons-arrow-right-24: Settings ](./90_year_end_closing/index.md){.md-button}
+
+
+
+-   :tools:{ .lg .middle } __Configuration__
+
+    ---
+
+    Enhance website functionality by configuring it with advanced features in the developer mode. 
+    
+    [:octicons-arrow-right-24: Configuration ](./50_10_configuration.md){.md-button}
+
+</div>

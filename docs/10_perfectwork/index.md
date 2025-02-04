@@ -25,7 +25,7 @@ The PerfectWork ERP software - an easiest path to professional, ready-to-use, in
 
     Invoicing is a standalone app for creating and sending invoices, while Accounting is a comprehensive accounting application.
 
-    [:octicons-arrow-right-24: Fi ](./20_accounting/index.md){ .md-button }
+    [:octicons-arrow-right-24: Finance ](./20_accounting/index.md){ .md-button }
 
 
 -   :material-phone-incoming-outline:{ .lg .middle } __Sales & Distribution__
@@ -50,7 +50,7 @@ The PerfectWork ERP software - an easiest path to professional, ready-to-use, in
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: Explore](#){ .md-button }
+    [:octicons-arrow-right-24: Explore](./50_website/index.md){ .md-button }
 
 -   :material-factory:{ .lg .middle } __Manufacturing__
 

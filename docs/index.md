@@ -1,5 +1,5 @@
 ---
-title:  PerfectWork Business Solutions
+title:  Business Solutions
 no_toc: true
 hide:
   - navigation
@@ -12,7 +12,7 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __PerfectWork ERP__
+-   :material-application:{ .lg .middle } __PerfectWORK ERP__
 
     ---
 

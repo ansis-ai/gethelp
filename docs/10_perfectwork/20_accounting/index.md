@@ -23,7 +23,7 @@ Our documentation will help you understand how to manage your books, what the ac
 
     PerfectWork offers customizable invoicing and payment options to suit various business needs, ensuring efficient and accurate processing.
     
-    [:octicons-arrow-right-24: Payment ](./2030_payment/index.md){.md-button}
+    [:octicons-arrow-right-24: Payment ](./30_payment/index.md){.md-button}
 
 -   :material-table-search:{ .lg .middle } __Year End Closing__
 
@@ -31,6 +31,17 @@ Our documentation will help you understand how to manage your books, what the ac
 
     Year-end closing is vital for maintaining financial accuracy, complying with regulations and ensuring transparency in reporting.
     
-    [:octicons-arrow-right-24: Year End ](./2900_year_end_closing/index.md){.md-button}
+    [:octicons-arrow-right-24: Year End ](./90_year_end_closing/index.md){.md-button}
+
+
+-   :material-application:{ .lg .middle } __Localization__
+
+    ---
+
+    Countries Localization
+    
+    <br/>
+    <br/>
+    [:octicons-arrow-right-24:  Localization ](./95_localization/index.md){.md-button}
 
 </div>
