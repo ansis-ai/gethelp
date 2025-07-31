@@ -12,13 +12,13 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __PerfectWORK ERP__
+-   :material-application:{ .lg .middle } __ANSIS Business System__
 
     ---
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Learn More](./10_perfectwork/index.md){ .md-button }
+    [:octicons-arrow-right-24: Learn More](./10_platform/index.md){ .md-button }
     
 -   :material-application:{ .lg .middle } __Industrial Solutions__
 
@@ -26,23 +26,25 @@ hide:
 
     A modular and versatile management solutions for your business
 
-    [:octicons-arrow-right-24: Getting started](./20_solutions/index.md){ .md-button }
+    [:octicons-arrow-right-24: Explore More](./20_solutions/index.md){ .md-button }
     
-
--   :material-robot:{ .lg .middle } __Infrastructure__
+-   :material-robot:{ .lg .middle } __System Management__
 
     ---
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Explore](./30_infrastructure/index.md){ .md-button }
+    [:octicons-arrow-right-24: Getting Started](./30_system_management/index.md){ .md-button }
 
--   :material-github:{ .lg .middle } __Developer__
+
+
+-   :material-robot:{ .lg .middle } __Developer Guide__
 
     ---
 
-    Documentation for Developer [GitHub]
+    Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Development](./50_developer/index.md){ .md-button }
+    [:octicons-arrow-right-24: Develope](./50_developers/index.md){ .md-button }
+
 
 </div>

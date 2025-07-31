@@ -1,5 +1,5 @@
 nav:
-    - index.md
+    - 10_platform
     - 20_solutions
-    - 50_developer
-    - Blog: blog
+    - 30_system_management
+    - 50_developers

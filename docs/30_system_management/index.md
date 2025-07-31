@@ -1,6 +1,5 @@
 ---
-title: Infrastructure
-description: "This guide will help you to integrate Odoo with other systems."
+title: System Management
 hide:
   - navigation
   - toc
@@ -8,7 +7,7 @@ hide:
 
 
 <div class="grid cards" markdown>
--   :material-application:{ .lg .middle } __Clinic Management__
+-   :material-application:{ .lg .middle } __Ansible__
 
     ---
 
@@ -16,7 +15,7 @@ hide:
 
     [:octicons-arrow-right-24: Learn More](./10_platform/index.md){ .md-button }
     
--   :material-application:{ .lg .middle } __Building Management__
+-   :material-application:{ .lg .middle } __Docker__
 
     ---
 
