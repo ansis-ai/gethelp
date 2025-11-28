@@ -8,8 +8,9 @@
     "version": "18",
     "title": "Odoo 18",
     "aliases": [
+      "push",
       "Odoo 18",
-      "push"
+      "stable"
     ]
   }
 ]
