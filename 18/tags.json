@@ -1,1 +1,1 @@
-{"mappings": []}
+{"mappings": [{"item": {"url": "10_platform/20_accounting/module-index/", "title": "Accounting Module Overview"}, "tags": ["accounting", "module", "odoo"]}, {"item": {"url": "20_solutions/90_clinic_management/module-index/", "title": "Clinic Management Module Overview"}, "tags": ["healthcare", "module", "odoo"]}, {"item": {"url": "_templates/module-index/", "title": "Module Overview"}, "tags": ["module", "odoo"]}]}
